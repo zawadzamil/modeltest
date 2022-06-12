@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "sub_id": 1,
+    "name": "Bangla"
+  },
+  {
+    "id": 2,
+    "sub_id": 1,
+    "name": "English"
+  },
+  {
+    "id": 3,
+    "sub_id": 1,
+    "name": "Bangladesh Affairs"
+  },
+  {
+    "id": 4,
+    "sub_id": 1,
+    "name": "Mathematical Reasoning"
+  },
+  {
+    "id": 5,
+    "sub_id": 1,
+    "name": "General Science and Technology"
+  },
+  {
+    "id": 6,
+    "sub_id": 2,
+    "name": "Physics"
+  },
+  {
+    "id": 7,
+    "sub_id": 2,
+    "name": "Chemistry"
+  },
+  {
+    "id": 8,
+    "sub_id": 2,
+    "name": "Mathmatics"
+  },
+  {
+    "id": 9,
+    "sub_id": 2,
+    "name": "English"
+  },
+  {
+    "id": 10,
+    "sub_id": 2,
+    "name": "Bangla"
+  },
+  {
+    "id": 11,
+    "sub_id": 3,
+    "name": "Social science"
+  },
+  {
+    "id": 12,
+    "sub_id": 3,
+    "name": "Higher Mathmatics"
+  },
+  {
+    "id": 13,
+    "sub_id": 3,
+    "name": "Biology"
+  },
+  {
+    "id": 14,
+    "sub_id": 3,
+    "name": "Accounting"
+  },
+  {
+    "id": 15,
+    "sub_id": 3,
+    "name": "Studies of Islam"
+  },
+  {
+    "id": 16,
+    "sub_id": 4,
+    "name": "Reading"
+  },
+  {
+    "id": 17,
+    "sub_id": 4,
+    "name": "Listening"
+  },
+  {
+    "id": 18,
+    "sub_id": 4,
+    "name": "Writing"
+  },
+  {
+    "id": 19,
+    "sub_id": 4,
+    "name": "Speaking"
+  },
+  {
+    "id": 20,
+    "sub_id": 5,
+    "name": "Arithmetic"
+  },
+  {
+    "id": 21,
+    "sub_id": 5,
+    "name": "Algebra"
+  },
+  {
+    "id": 22,
+    "sub_id": 5,
+    "name": "Geometry"
+  },
+  {
+    "id": 23,
+    "sub_id": 5,
+    "name": "Trigonometry"
+  },
+  {
+    "id": 24,
+    "sub_id": 5,
+    "name": "Analysis"
+  },
+  {
+    "id": 25,
+    "sub_id": 10,
+    "name": "HTML5"
+  },
+  {
+    "id": 26,
+    "sub_id": 10,
+    "name": "CSS3"
+  },
+  {
+    "id": 27,
+    "sub_id": 10,
+    "name": "Java"
+  },
+  {
+    "id": 28,
+    "sub_id": 10,
+    "name": "Python"
+  },
+  {
+    "id": 29,
+    "sub_id": 9,
+    "name": "Countries and Capitals"
+  },
+  {
+    "id": 30,
+    "sub_id": 9,
+    "name": "Rivers in the World"
+  },
+  {
+    "id": 31,
+    "sub_id": 9,
+    "name": "Election Commission"
+  },
+  {
+    "id": 32,
+    "sub_id": 9,
+    "name": "Wildlife Sanctuaries"
+  },
+  {
+    "id": 33,
+    "sub_id": 9,
+    "name": "National Animal"
+  },
+  {
+    "id": 34,
+    "sub_id": 8,
+    "name": "Most Common"
+  },
+  {
+    "id": 35,
+    "sub_id": 8,
+    "name": "Situational "
+  },
+  {
+    "id": 36,
+    "sub_id": 8,
+    "name": "Behavioral"
+  },
+  {
+    "id": 37,
+    "sub_id": 7,
+    "name": "Mathmetical Analysis"
+  },
+  {
+    "id": 38,
+    "sub_id": 7,
+    "name": "English and Grammer"
+  },
+  {
+    "id": 39,
+    "sub_id": 7,
+    "name": "Science and Technology"
+  },
+  {
+    "id": 40,
+    "sub_id": 7,
+    "name": "ICT"
+  },
+  {
+    "id": 41,
+    "sub_id": 6,
+    "name": "Mental Ability"
+  },
+  {
+    "id": 42,
+    "sub_id": 6,
+    "name": "Math"
+  },
+  {
+    "id": 43,
+    "sub_id": 6,
+    "name": "English Language"
+  },
+  {
+    "id": 44,
+    "sub_id": 6,
+    "name": "General Knowledge"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "BCS Preliminary Exam",
+     "image": "1.png"
+  },
+  {
+    "id": 2,
+    "name": "University Admission",
+     "image": "2.png"
+  },
+  {
+    "id": 3,
+    "name": "HSC",
+     "image": "3.png"
+  },
+  {
+    "id": 4,
+    "name": "IELTS",
+     "image": "4.png"
+  },
+  {
+    "id": 5,
+    "name": "Math",
+     "image": "5.png"
+  },
+  {
+    "id": 6,
+    "name": "Bank Job",
+     "image": "6.png"
+  },
+  {
+    "id": 7,
+    "name": "Teacher's Exam",
+     "image": "7.png"
+  },
+  {
+    "id": 8,
+    "name": "Job Interview",
+     "image": "8.png"
+  },
+  {
+    "id": 9,
+    "name": "General Knowledge",
+     "image": "9.png"
+  },
+  {
+    "id": 10,
+    "name": "Programming and Tech",
+     "image": "10.png"
+  }
+]

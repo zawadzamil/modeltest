@@ -1,0 +1,446 @@
+/* Extra */
+@import url("https://fonts.googleapis.com/css?family=Mukta:700");
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans);
+@import url("http://fonts.googleapis.com/css?family=Kdam Thmor Pro");
+@import url("http://fonts.googleapis.com/css?family=Bebas Neue");
+@import url("http://fonts.googleapis.com/css?family=PT Sans Narrow");
+@import url("http://fonts.googleapis.com/css?family=Rajdhani");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Play");
+@import url("https://fonts.googleapis.com/css?family=Bree Serif");
+.test_header {
+  width: 100%;
+  height: 13rem;
+  background-color: #027b9a;
+  text-align: center;
+}
+
+.test_header .navigation {
+  padding-top: 5rem;
+}
+
+.test_header .navigation a {
+  font-family: Bebas Neue;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.contact .row {
+  margin-top: 2rem;
+}
+
+.contact .row h1 {
+  text-align: center;
+  font-family: Bebas Neue;
+}
+
+.contact .row h4 {
+  margin-top: 0.75rem;
+  font-family: Bree Serif;
+  font-size: 1.25rem;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contact .row .image {
+  margin-top: 2.5rem;
+  width: 80%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact .row .image img {
+  max-height: 100%;
+  max-width: 100%;
+  min-height: 100%;
+}
+
+.contact .row .inputs {
+  text-align: center;
+}
+
+.contact .row .inputs input {
+  font-weight: 600;
+  font-family: PT Sans Narrow;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+  padding: 1rem;
+  margin-bottom: 0.70rem;
+  border-radius: 0.5rem;
+  width: 60%;
+  height: 50px;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+          box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  opacity: 0.7;
+}
+
+.contact .row .inputs input:focus {
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 255, 255, 0.7), 1px 2px 4px 0px rgba(0, 255, 255, 0.7), 2px 4px 8px 0px rgba(0, 255, 255, 0.7), 2px 4px 16px 0px rgba(0, 255, 255, 0.7);
+          box-shadow: 0px 1px 2px 0px rgba(0, 255, 255, 0.7), 1px 2px 4px 0px rgba(0, 255, 255, 0.7), 2px 4px 8px 0px rgba(0, 255, 255, 0.7), 2px 4px 16px 0px rgba(0, 255, 255, 0.7);
+}
+
+.contact .row .inputs * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.contact .row .inputs .btn-container {
+  width: 100%;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .row .inputs button {
+  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+          box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  --width: 150px;
+  --height: 35px;
+  border: 0;
+  position: relative;
+  min-width: var(--width);
+  min-height: var(--height);
+  border-radius: var(--height);
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: bold;
+  background: rgba(0, 17, 253, 0.733);
+  cursor: pointer;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 1rem;
+}
+
+.contact .row .inputs button .text,
+.contact .row .inputs button .icon-container {
+  position: relative;
+  z-index: 2;
+}
+
+.contact .row .inputs button .icon-container {
+  --icon-size: 25px;
+  position: relative;
+  width: var(--icon-size);
+  height: var(--icon-size);
+  margin-left: 15px;
+  -webkit-transition: -webkit-transform 600ms ease;
+  transition: -webkit-transform 600ms ease;
+  transition: transform 600ms ease;
+  transition: transform 600ms ease, -webkit-transform 600ms ease;
+}
+
+.contact .row .inputs button .icon-container .icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: var(--icon-size);
+  height: var(--icon-size);
+  -webkit-transition: opacity 250ms ease, -webkit-transform 500ms ease;
+  transition: opacity 250ms ease, -webkit-transform 500ms ease;
+  transition: transform 500ms ease, opacity 250ms ease;
+  transition: transform 500ms ease, opacity 250ms ease, -webkit-transform 500ms ease;
+}
+
+.contact .row .inputs button .icon-container .icon--left {
+  -webkit-transform: translateX(-200%);
+          transform: translateX(-200%);
+  opacity: 0;
+}
+
+.contact .row .inputs button .icon-container .icon svg {
+  width: 100%;
+  height: 100%;
+  fill: #fff;
+}
+
+.contact .row .inputs button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #2f18ff;
+  background: linear-gradient(18deg, #2f18ff 0%, #4e4d4d 100%);
+  border-radius: var(--height);
+  z-index: 1;
+  -webkit-transition: -webkit-transform 500ms ease;
+  transition: -webkit-transform 500ms ease;
+  transition: transform 500ms ease;
+  transition: transform 500ms ease, -webkit-transform 500ms ease;
+}
+
+.contact .row .inputs button:hover::after {
+  -webkit-transform: translateX(65%);
+          transform: translateX(65%);
+}
+
+.contact .row .inputs button:hover .icon-container {
+  -webkit-transform: translateX(125%);
+          transform: translateX(125%);
+}
+
+.contact .row .inputs button:hover .icon-container .icon--left {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  opacity: 1;
+}
+
+.contact .row .inputs button:hover .icon-container .icon--right {
+  -webkit-transform: translateX(200%);
+          transform: translateX(200%);
+  opacity: 0;
+}
+
+.contact .row .inputs textarea {
+  font-weight: 600;
+  font-family: PT Sans Narrow;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 60%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1.5rem;
+  height: 10rem;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+          box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  opacity: 0.7;
+}
+
+.contact .row .inputs textarea:focus {
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 255, 255, 0.7), 1px 2px 4px 0px rgba(0, 255, 255, 0.7), 2px 4px 8px 0px rgba(0, 255, 255, 0.7), 2px 4px 16px 0px rgba(0, 255, 255, 0.7);
+          box-shadow: 0px 1px 2px 0px rgba(0, 255, 255, 0.7), 1px 2px 4px 0px rgba(0, 255, 255, 0.7), 2px 4px 8px 0px rgba(0, 255, 255, 0.7), 2px 4px 16px 0px rgba(0, 255, 255, 0.7);
+}
+
+.details {
+  margin-top: 20%;
+}
+
+.details .row {
+  cursor: default;
+}
+
+.details .card {
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  width: 80%;
+  height: 80%;
+  outline: none;
+  border: none;
+  -webkit-box-shadow: rgba(138, 179, 156, 0.5) 0px 0px 16px;
+          box-shadow: rgba(138, 179, 156, 0.5) 0px 0px 16px;
+  border-radius: 1rem;
+}
+
+.details .card .email {
+  font-size: 2rem;
+  text-decoration: none;
+  cursor: default;
+}
+
+.details .card .call {
+  font-size: 2rem;
+  text-decoration: none;
+  cursor: default;
+}
+
+.details .card .location {
+  text-decoration: none;
+  cursor: default;
+}
+
+.details .card .locate {
+  width: 3rem;
+  cursor: default;
+}
+
+@media (max-width: 991px) {
+  .contact .row {
+    margin-top: 2rem;
+  }
+  .contact .row h4 {
+    margin-top: 0.50rem;
+  }
+  .contact .row .image {
+    height: 80%;
+    width: 100%;
+    margin-top: 3.3rem;
+  }
+  .contact .row .inputs {
+    text-align: center;
+  }
+  .contact .row .inputs input {
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    width: 80%;
+    height: 40px;
+  }
+  .contact .row .inputs textarea {
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 1rem;
+  }
+  .details .row h5 {
+    font-size: 1rem;
+  }
+  .details .card {
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 75%;
+    outline: none;
+    border: none;
+    -webkit-box-shadow: rgba(138, 179, 156, 0.5) 0px 0px 16px;
+            box-shadow: rgba(138, 179, 156, 0.5) 0px 0px 16px;
+    border-radius: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact .row {
+    margin-top: 2rem;
+  }
+  .contact .row h4 {
+    margin-top: 0.50rem;
+  }
+  .contact .row .image {
+    margin-top: 1.5rem;
+    margin-left: 8%;
+    margin-right: 0%;
+  }
+  .contact .row .inputs {
+    text-align: center;
+  }
+  .contact .row .inputs input {
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 1rem;
+    width: 70%;
+    height: 40px;
+  }
+  .contact .row .inputs textarea {
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 1rem;
+  }
+  .details .row h5 {
+    font-size: 1rem;
+  }
+  .details .card {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 0.78rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 70%;
+  }
+  .details .card h5 {
+    font-size: 12px;
+  }
+  .details .card .email {
+    font-size: 1rem;
+  }
+  .details .card .call {
+    font-size: 1rem;
+  }
+  .details .card .locate {
+    width: 1.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .contact .row {
+    margin-top: 2rem;
+  }
+  .contact .row h4 {
+    margin-top: 0.50rem;
+  }
+  .contact .row .image {
+    margin-top: 1.5rem;
+    margin-left: 13%;
+  }
+  .contact .row .inputs {
+    text-align: center;
+  }
+  .contact .row .inputs input {
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 1rem;
+    width: 85%;
+    height: 40px;
+  }
+  .contact .row .inputs textarea {
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    padding: 1rem;
+  }
+  .details {
+    margin-top: 20%;
+  }
+  .details .card {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 40%;
+    height: 80%;
+    border-radius: 10px;
+  }
+  .details .card h5 {
+    font-size: 12px;
+  }
+  .details .card .email {
+    font-size: 1rem;
+  }
+  .details .card .call {
+    font-size: 1rem;
+  }
+  .details .card .locate {
+    width: 1.5rem;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

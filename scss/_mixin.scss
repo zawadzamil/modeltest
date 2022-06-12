@@ -1,0 +1,325 @@
+@mixin imgFit {
+  max-height: 100%;
+  max-width: 100%;
+  min-height: 100%;
+}
+@mixin popular {
+  background-color: cornflowerblue;
+  padding: 1.5rem 1rem 1rem 2rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  height: fit-content;
+}
+
+@mixin magnetic($timeing) {
+  transition: all $timeing cubic-bezier(0.615, 0, 0.07, 1);
+}
+
+@mixin title {
+  
+   h2 {
+          font-family: $ffHeading2;
+          font-weight: bold;
+        }
+        h5 {
+          font-family: $ffSubtitle;
+        }
+      
+  
+}
+@mixin register {
+  text-align: center;
+      height: fit-content;
+      margin-left: 0rem;
+      padding: 0.5rem;
+      border: 1px outset #1C6EA4;
+  
+}
+
+//For buttonmore
+@mixin transition($property: all, $duration: 0.45s, $ease: cubic-bezier(0.65,0,.076,1)) {
+  transition: $property $duration $ease;
+}
+@mixin buttonmore {
+  * {
+      box-sizing: border-box;
+      &::before, &::after {
+        box-sizing: border-box;
+      }
+    }
+    button {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      outline: none;
+      border: 0;
+      vertical-align: middle;
+      text-decoration: none;
+      background: transparent;
+      padding: 0;
+      font-size: inherit;
+      font-family: inherit;
+      &.learn-more {
+        width: 12rem;
+        height: auto;
+        .circle {
+          @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+          position: relative;
+          display: block;
+          margin: 0;
+          width: 3rem;
+          height: 3rem;
+          background: $black;
+          border-radius: 1.625rem;
+          .icon {
+            @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background: $white;
+            &.arrow {
+              @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+              left: 0.625rem;
+              width: 1.125rem;
+              height: 0.125rem;
+              background: none;
+              &::before {
+                position: absolute;
+                content: '';
+                top: -0.25rem;
+                right: 0.0625rem;
+                width: 0.625rem;
+                height: 0.625rem;
+                border-top: 0.125rem solid #fff;
+                border-right: 0.125rem solid #fff;
+                transform: rotate(45deg);
+              }
+            }
+          }
+        }
+        .button-text {
+          @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          padding-top: 0.65rem;
+          padding-bottom:  0.75rem;
+          color: $black;
+          font-weight: 700;
+          line-height: 1.6;
+          text-align: center;
+          text-transform: uppercase;
+        }
+      }
+      &:hover {
+        .circle {
+          width: 100%;
+          .icon {
+            &.arrow {
+            background: $white;
+            transform: translate(1rem, 0);
+            }
+          }
+        }
+        .button-text {
+          color: $white;
+        }
+      }
+    }
+}
+
+
+@mixin button {
+  .butn:link,
+.butn:visited {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #5e16bd;
+  background-image: linear-gradient(90deg, #501aa8, #870de8);
+  padding: 0.5rem ;
+  height: fit-content;
+  width: 10rem;
+
+  margin-right: 13px;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.butn::before {
+  background: #fff;
+  content: "";
+  height: 155px;
+  opacity: 0;
+  position: absolute;
+  top: -50px;
+  transform: rotate(35deg);
+  width: 50px;
+  transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.butn::after {
+  background: #fff;
+  content: "";
+  height: 20rem;
+  opacity: 0;
+  position: absolute;
+  top: -50px;
+  transform: rotate(35deg);
+  transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
+  width: 8rem;
+}
+.butn__new::before {
+  left: -50%;
+}
+
+.butn__new::after {
+  left: -100%;
+}
+
+.butn:hover,
+.butn:active {
+  transform: translateY(-3px);
+  color: #fff;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.butn__new:hover::before {
+  left: 120%;
+  opacity: 0.5s;
+}
+
+.butn__new:hover::after {
+  left: 200%;
+  opacity: 0.6;
+}
+.butn span {
+  z-index: 20;
+}
+
+}
+
+
+//send button
+@mixin send-btn {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .btn-container {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    --width: 150px;
+    --height: 35px;
+    border: 0;
+    position: relative;
+    min-width: var(--width);
+    min-height: var(--height);
+    border-radius: var(--height);
+    color: #fff;
+    font-family: "Montserrat";
+    font-weight: bold;
+    background: rgba(0, 17, 253, 0.733);
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+  
+    .text,
+    .icon-container {
+      position: relative;
+      z-index: 2;
+    }
+  
+    .icon-container {
+      --icon-size: 25px;
+      position: relative;
+      width: var(--icon-size);
+      height: var(--icon-size);
+      margin-left: 15px;
+      transition: transform 600ms ease;
+  
+      .icon {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: var(--icon-size);
+        height: var(--icon-size);
+        transition: transform 500ms ease, opacity 250ms ease;
+  
+        &--left {
+          transform: translateX(-200%);
+          opacity: 0;
+        }
+        svg {
+          width: 100%;
+          height: 100%;
+          fill: #fff;
+        }
+      }
+    }
+  
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgb(47,24,255);
+      background: linear-gradient(18deg, rgba(47,24,255,1) 0%, rgba(78,77,77,1) 100%);
+      border-radius: var(--height);
+      z-index: 1;
+      transition: transform 500ms ease;
+    }
+  
+    &:hover {
+      &::after {
+        transform: translateX(65%);
+      }
+  
+      .icon-container {
+        transform: translateX(125%);
+        .icon {
+          &--left {
+            transform: translateX(0);
+            opacity: 1;
+          }
+          &--right {
+            transform: translateX(200%);
+            opacity: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@mixin boxHover {
+  transform: translateY(-1.5rem);
+  box-shadow: $shadow81;
+  
+}
+@mixin TrendHover {
+  transform: translateY(-0.5rem);
+  box-shadow: $shadow81;
+  
+}

@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/* Extra */
+@import url("https://fonts.googleapis.com/css?family=Mukta:700");
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans);
+@import url("http://fonts.googleapis.com/css?family=Kdam Thmor Pro");
+@import url("http://fonts.googleapis.com/css?family=Bebas Neue");
+@import url("http://fonts.googleapis.com/css?family=PT Sans Narrow");
+@import url("http://fonts.googleapis.com/css?family=Rajdhani");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Play");
+@import url("https://fonts.googleapis.com/css?family=Bree Serif");
+.test_header {
+  width: 100%;
+  height: 13rem;
+  background-color: #027b9a;
+  text-align: center;
+}
+
+.test_header .navigation {
+  padding-top: 5rem;
+}
+
+.test_header .navigation a {
+  font-family: Bebas Neue;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.test_details {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.test_details .row {
+  text-align: center;
+}
+
+.test_details .row .chepters {
+  margin-top: 5rem;
+}
+
+.test_details .row h5 {
+  font-size: 1.2rem;
+  font-family: Rajdhani;
+  font-weight: bold;
+}
+
+.test_details .row h2 {
+  font-family: Bebas Neue;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.test_details .row .chepter {
+  height: 8rem;
+  width: 100%;
+  font-size: 1.3rem;
+  padding: 0.6rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-family: Bree Serif;
+  position: relative;
+  display: inline-block;
+  height: 10rem;
+  padding: 0%;
+  text-align: center;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  -webkit-box-shadow: -2px 3px 9px 0px #396146;
+  box-shadow: -2px 3px 9px 0px #396146;
+}
+
+.test_details .row .selection {
+  padding: 2rem 1rem 2rem 1rem;
+  text-align: center;
+  background-color: aquamarine;
+  margin-top: 1.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #1c6ea4;
+  padding: 2rem;
+  -webkit-box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+          box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  padding: 2rem 1rem 2rem 1rem;
+  border-radius: 0rem 2rem 2rem 2rem;
+  background: #10088b;
+  background: linear-gradient(256deg, #10088b 0%, #040318 76%);
+  color: white;
+}
+
+.test_details .row .selection h4 {
+  font-weight: 600;
+  text-align: center;
+  font-family: Play;
+}
+
+.test_details .row .selection h3 {
+  font-size: 3rem;
+  font-family: Rajdhani;
+  font-weight: bold;
+}
+
+.test_details .row .selection #time {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.test_details .row .selection select {
+  width: 70%;
+  padding: 0.5rem;
+  font-family: Bree Serif;
+  border-radius: 0.5rem;
+  background-color: #140aa0;
+  color: white;
+  -webkit-box-shadow: rgba(27, 23, 245, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+          box-shadow: rgba(27, 23, 245, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.test_details .row .selection button {
+  background-color: #1c6ea4;
+  color: white;
+  padding: 1rem 3rem 1rem 3rem;
+  border-radius: 0.5rem;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+.test_details .row .selection button:hover {
+  background-color: #0d6efd;
+  -webkit-transform: translateY(-0.5rem);
+          transform: translateY(-0.5rem);
+  -webkit-box-shadow: rgba(212, 226, 13, 0.479) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+          box-shadow: rgba(212, 226, 13, 0.479) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.test_details .row .related {
+  margin-top: 2rem;
+  background-color: white;
+  padding: 2rem;
+  -webkit-box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+          box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  border: 1px solid #1c6ea4;
+  padding: 2rem 1rem 2rem 1rem;
+  border-radius: 2rem 2rem 2rem 0rem;
+  background-color: rgba(169, 187, 12, 0.13);
+}
+
+.test_details .row .related h4 {
+  font-weight: 600;
+  text-align: center;
+  font-family: Play;
+}
+
+.test_details .row .related ul {
+  margin-left: -18%;
+  list-style: none;
+  line-height: 170%;
+  font-size: 1.2rem;
+  font-family: Bree Serif;
+}
+
+.test_details .row .related ul li::before {
+  content: "✔";
+  padding-right: 0.5rem;
+  color: red;
+}
+/*# sourceMappingURL=details.css.map */
