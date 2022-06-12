@@ -29,7 +29,7 @@
 
 .test_subjects .row {
   margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 .test_subjects .row .inner {
@@ -69,7 +69,7 @@
 }
 
 .test_subjects .row .second {
-  margin-top: 3rem;
+  margin-top: 6%;
 }
 
 .test_subjects .row .second h3 {
