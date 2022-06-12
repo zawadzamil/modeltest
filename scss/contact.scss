@@ -99,7 +99,9 @@
 }
 
 .details{
-    margin-top: 20%;
+    margin-top: 8%;
+    margin-left: 5%;
+
     .row{
         cursor: default;
     }
@@ -199,9 +201,10 @@
             }
             .image{
                 margin-top: 1.5rem;
-                margin-left: 8%;
-                margin-right: 0%;
-                
+                width: 100%;
+                img{
+                    margin-left: 6.5%;
+                }
             }
             .inputs{
                 text-align: center;
@@ -267,7 +270,9 @@
             }
             .image{
                 margin-top: 1.5rem;
-                margin-left: 13%;
+                img{
+                    margin-left: 4.7%;
+                }
             }
             .inputs{
                 text-align: center;

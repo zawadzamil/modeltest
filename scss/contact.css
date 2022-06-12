@@ -240,7 +240,8 @@
 }
 
 .details {
-  margin-top: 20%;
+  margin-top: 8%;
+  margin-left: 5%;
 }
 
 .details .row {
@@ -340,8 +341,10 @@
   }
   .contact .row .image {
     margin-top: 1.5rem;
-    margin-left: 8%;
-    margin-right: 0%;
+    width: 100%;
+  }
+  .contact .row .image img {
+    margin-left: 6.5%;
   }
   .contact .row .inputs {
     text-align: center;
@@ -399,7 +402,9 @@
   }
   .contact .row .image {
     margin-top: 1.5rem;
-    margin-left: 13%;
+  }
+  .contact .row .image img {
+    margin-left: 4.7%;
   }
   .contact .row .inputs {
     text-align: center;
