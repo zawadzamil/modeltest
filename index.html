@@ -37,7 +37,7 @@
               <a href="exams.html" class="nav-link">Exam</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">About</a>
+              <a href="about.html" class="nav-link">About</a>
             </li>
             <li class="nav-item">
               <a href="contact.html" class="nav-link">Contact</a>
@@ -59,21 +59,33 @@
   <section class="header">
     <!-- Carousel wrapper -->
     <div class="carousel">
-      <div class="slides">
-
-        <img src="https://picsum.photos/1280/720?random=1" alt="slide image" class="slide img-fluid">
-        <img src="https://picsum.photos/1280/720?random=2" alt="slide image" class="slide img-fluid">
-        <img src="https://picsum.photos/1280/720?random=3" alt="slide image" class="slide img-fluid">
-
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner h-100">
+          <div class="carousel-item active h-100">
+            <img src="https://picsum.photos/1280/720?random=1" alt="Los Angeles" class="d-block w-100 h-100 img-fluid">
+          </div>
+          <div class="carousel-item h-100">
+            <img src="https://picsum.photos/1280/720?random=2" alt="Chicago" class="d-block w-100 h-100 img-fluid">
+          </div>
+          <div class="carousel-item h-100">
+            <img src="https://picsum.photos/1280/720?random=3" alt="New York" class="d-block w-100 h-100 img-fluid">
+          </div>
+        </div>
+      
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
       </div>
       <div class="carousel-caption d-none d-md-block">
         <h2>Just About 200 Thousand Questions!</h2>
         <p>Create your own Test in 10 seconds, keep practicing,
           stay on top for your next exam</p>
-      </div>
-      <div class="controls">
-        <div class="control prev-slide">&#9668;</div>
-        <div class="control next-slide">&#9658;</div>
       </div>
 
     </div>

@@ -1,0 +1,113 @@
+@import "../mixin";
+@import "../var";
+
+.test_header{
+    width: 100%;
+    height: 13rem;
+    background-color: #027b9a;
+    text-align: center;
+
+    .navigation{
+     padding-top: 5rem;
+     a{
+         font-family: $ffHeading;
+         font-size: 2rem;
+         color: rgb(255, 255, 255);
+         text-decoration: none;
+     }
+    }
+}
+
+
+.allabout{
+    margin-top: 5%;
+    h3{
+        font-family: $ffHeading;
+    }
+    .row{
+        outline: none;
+        border: none;
+        .mission-image{
+            img{
+                @include imgFit;
+            }
+        }
+    }
+    .col{
+        outline: none;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+}
+
+.about-details{
+    margin-top: 10%;
+    // background-color: cadetblue;
+    .row{
+
+        border-radius: 4px;
+        .col{
+        .card{
+            background-color: #027c9a62;
+            outline: none;
+            border: none;
+            span{
+                color: rgb(248, 10, 10);
+                
+            }
+        }
+        .card-header{
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            text-align: center;
+            transition: 400ms;
+            a{
+                text-decoration: none;
+                font-weight: bold;
+                color: white;
+                font-family: $ffHeading2;
+                font-size: 1.2rem;
+            }
+            &:hover{
+                box-shadow: rgba(56, 95, 102, 0.37) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+                border-left: 5px solid tomato;
+            }
+        }
+        }
+    }
+}
+@media (max-width: 767px) {
+    .about-details{
+        .row{
+            .card{
+                width: 13rem;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+}
+
+
+.about-accordian{
+    margin-top: 10%;
+    margin-bottom: 5rem;
+    h4{
+        font-family: $ffHeading;
+    }
+    .image{
+        height: 100%;
+        margin-top: 5%;
+    }
+    .accordion-button{
+        color:#027b9a;
+        font-weight: bold;
+        font-family: $ffSubtitle;
+        &:hover{
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+    }
+
+}
+
+
