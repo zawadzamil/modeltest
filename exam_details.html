@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="scss/main.css">
-    <link rel="stylesheet" href="scss/quiz/quiz.css">
+    <link rel="stylesheet" href="scss/exam/exam_details.css">
+    <title>Exam details</title>
 
     <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -14,11 +15,9 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <title>Test Details</title>
 </head>
 
 <body>
-
     <!-- NAVBAR -->
     <section class="navSection">
         <div class="navbar navbar-expand-lg fixed-top navbar-dark navbar-transparent">
@@ -64,158 +63,342 @@
     <!-- text header -->
     <section class="test_header">
         <div class="navigation">
-            <a href="index.html">Home > </a>
-            <a href="tests.html">Tests ></a>
-            <a href="tests.html">Test Details ></a>
-            <a href="tests.html">Quiz</a>
+            <a href="index.html">Home/</a>
+            <a href="exams.html">Exam/</a>
+            <a href="exams.html">exam_details</a>
         </div>
     </section>
 
-    <!-- quiz section -->
-    <section class="quiz">
+    <section class="exam_details">
         <div class="container">
             <div class="row">
-                <div class="quiz_details">
-                    <h2>Quiz on Biology in English - I</h2>
-
-                    <div class="more_details">
-                        <h5>Your Name <span id="more-details-text">: Zawad Zamil</span></h5>
-                        <h5>Total Mark <span id="more-details-mark">: 100</span></h5>
-                        <h5>Total Questions <span id="more-details-questions">: 100</span></h5>
-                        <h5>Total Time <span id="more-details-time">: 60 min</span></h5>
-                    </div>
-                    <div class="time">
-                        <h2>Remaining Time</h2>
-                        <h1>00:47:31 </h1>
-                    </div>
-
-                </div>
-                <div class="col-md-8">
-                    <div class="question">
-                        <h5>Question :5 <span>Correct Mark :1 Negitive : 0</span></h5>
-                        <hr>
-                        <h4>Question : Which of the following is shift in chloride shift?</h4>
-                        <ul>
-                            <li>
-                                <label for="op1"> <input type="checkbox" id="op1"> O2 and CO2 </label>
-
-                            </li>
-                            <li>
-                                <label for="op1"> <input type="checkbox" id="op1"> O2 and CO2 </label>
-
-                            </li>
-                            <li>
-                                <label for="op1"> <input type="checkbox" id="op1"> O2 and CO2 </label>
-
-                            </li>
-                            <li>
-                                <label for="op1"> <input type="checkbox" id="op1"> O2 and CO2 </label>
-
-                            </li>
-                        </ul>
-                        <div class="button">
-                            <button type="button" class="btn btn-outline-light">Prev</button>
-                            <button type="button" class="btn btn-outline-light">Next</button>
+                <div class="col-md-9 parent-inner">
+                    <h3>Exam_details</h3>
+                    <div class="row inner">
+                        <div class="col-md-3">
+                            <input type="text" class="enter-input" placeholder="Enter model-test name   🔍" >
+                        </div>
+                        <div class="col-md-3">
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle questions" type="button"
+                                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    type
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle questions" type="button"
+                                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Populer
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle questions" type="button"
+                                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Filter
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="pagination">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">1</button>
-                                </div>
-                                <div class="col-md-2 pege-btn ">
-                                    <button class="btn-level">2</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">3</button>
-                                </div>
-                                <div class="col-md-2 pege-btn ">
-                                    <button class="btn-level">4</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">5</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">6</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">7</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">8</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">9</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">10</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">11</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">12</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">13</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">14</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">15</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">16</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">17</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">18</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">19</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">20</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">21</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">22</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">23</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">24</button>
-                                </div>
-                                <div class="symbol">
-                                    <label for="nv" id="notvisited">■
-                                        <span id="text">Not Visited</span></label>
-                                    <label for="nans" id="notanswered">■
-                                        <span id="text">Not Answered</span></label>
-                                    <label for="ans" id="answered">■
-                                        <span id="text">Answered</span></label>
+
+                    <div class="row second">
+                        <div class="col-md-4 col-sm-6 col-lg-3">
+                            <div class="test-name" id="tooltip">
+                                <span class="tooltiptext">Physics, Chemistry, Bangla, Math, English</span>
+                                <div class="caption">
+                                    <h4>DU 'Kha' Unit -75</h4>
+                                    <small>Physics, chemistry ...</small>
+                                    <p class="note"><small>Exam taken: 700</small></p>
                                 </div>
                             </div>
+                          </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3">
+                            <div class="test-name "id="tooltip">
+                                <span class="tooltiptext">Physics, Chemistry, Bangla, Math, English</span>
+                                <div class="caption">
+                                    <h4>DU 'Kha Unit -75'</h4>
+                                    <small>Physics, chemistry ...</small>
+                                    <p class="note"><small>Exam taken: 700</small></p>
+                                </div>
+                            </div>
+                          </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3">
+                            <div class="test-name "id="tooltip">
+                                <span class="tooltiptext">Physics, Chemistry, Bangla, Math, English</span>
+                                <div class="caption">
+                                    <h4>DU 'Kha Unit -75'</h4>
+                                    <small>Physics, chemistry ...</small>
+                                    <p class="note"><small>Exam taken: 700</small></p>
+                                </div>
+                            </div>
+                          </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3">
+                            <div class="test-name "id="tooltip">
+                                <span class="tooltiptext">Physics, Chemistry, Bangla, Math, English</span>
+                                <div class="caption">
+                                    <h4>DU 'Kha Unit -75'</h4>
+                                    <small>Physics, chemistry ...</small>
+                                    <p class="note"><small>Exam taken: 700</small></p>
+                                </div>
+                            </div>
+                          </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3">
+                            <div class="test-name "id="tooltip">
+                                <span class="tooltiptext">Physics, Chemistry, Bangla, Math, English</span>
+                                <div class="caption">
+                                    <h4>DU 'Kha Unit -75'</h4>
+                                    <small>Physics, chemistry ...</small>
+                                    <p class="note"><small>Exam taken: 700</small></p>
+                                </div>
+                            </div>
+                          </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3">
+                            <div class="test-name "id="tooltip">
+                                <span class="tooltiptext">Physics, Chemistry, Bangla, Math, English</span>
+                                <div class="caption">
+                                    <h4>DU 'Kha Unit -75'</h4>
+                                    <small>Physics, chemistry ...</small>
+                                    <p class="note"><small>Exam taken: 700</small></p>
+                                </div>
+                            </div>
+                          </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3">
+                            <div class="test-name "id="tooltip">
+                                <span class="tooltiptext">Physics, Chemistry, Bangla, Math, English</span>
+                                <div class="caption">
+                                    <h4>DU 'Kha Unit -75'</h4>
+                                    <small>Physics, chemistry ...</small>
+                                    <p class="note"><small>Exam taken: 700</small></p>
+                                </div>
+                            </div>
+                          </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3">
+                            <div class="test-name "id="tooltip">
+                                <span class="tooltiptext">Physics, Chemistry, Bangla, Math, English</span>
+                                <div class="caption">
+                                    <h4>DU 'Kha Unit -75'</h4>
+                                    <small>Physics, chemistry ...</small>
+                                    <p class="note"><small>Exam taken: 700</small></p>
+                                </div>
+                            </div>
+                          </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3">
+                            <div class="test-name "id="tooltip">
+                                <span class="tooltiptext">Physics, Chemistry, Bangla, Math, English</span>
+                                <div class="caption">
+                                    <h4>DU 'Kha Unit -75'</h4>
+                                    <small>Physics, chemistry ...</small>
+                                    <p class="note"><small>Exam taken: 700</small></p>
+                                </div>
+                            </div>
+                          </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3">
+                            <div class="test-name "id="tooltip">
+                                <span class="tooltiptext">Physics, Chemistry, Bangla, Math, English</span>
+                                <div class="caption">
+                                    <h4>DU 'Kha Unit -75'</h4>
+                                    <small>Physics, chemistry ...</small>
+                                    <p class="note"><small>Exam taken: 700</small></p>
+                                </div>
+                            </div>
+                          </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3">
+                            <div class="test-name "id="tooltip">
+                                <span class="tooltiptext">Physics, Chemistry, Bangla, Math, English</span>
+                                <div class="caption">
+                                    <h4>DU 'Kha Unit -75'</h4>
+                                    <small>Physics, chemistry ...</small>
+                                    <p class="note"><small>Exam taken: 700</small></p>
+                                </div>
+                            </div>
+                          </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3">
+                            <div class="test-name "id="tooltip">
+                                <span class="tooltiptext">Physics, Chemistry, Bangla, Math, English</span>
+                                <div class="caption">
+                                    <h4>DU 'Kha Unit -75'</h4>
+                                    <small>Physics, chemistry ...</small>
+                                    <p class="note"><small>Exam taken: 700</small></p>
+                                </div>
+                            </div>
+                          </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3">
+                            <div class="test-name "id="tooltip">
+                                <span class="tooltiptext">Physics, Chemistry, Bangla, Math, English</span>
+                                <div class="caption">
+                                    <h4>DU 'Kha Unit -75'</h4>
+                                    <small>Physics, chemistry ...</small>
+                                    <p class="note"><small>Exam taken: 700</small></p>
+                                </div>
+                            </div>
+                          </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3">
+                            <div class="test-name "id="tooltip">
+                                <span class="tooltiptext">Physics, Chemistry, Bangla, Math, English</span>
+                                <div class="caption">
+                                    <h4>DU 'Kha Unit -75'</h4>
+                                    <small>Physics, chemistry ...</small>
+                                    <p class="note"><small>Exam taken: 700</small></p>
+                                </div>
+                            </div>
+                          </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3">
+                            <div class="test-name "id="tooltip">
+                                <span class="tooltiptext">Physics, Chemistry, Bangla, Math, English</span>
+                                <div class="caption">
+                                    <h4>DU 'Kha Unit -75'</h4>
+                                    <small>Physics, chemistry ...</small>
+                                    <p class="note"><small>Exam taken: 700</small></p>
+                                </div>
+                            </div>
+                          </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3">
+                            <div class="test-name "id="tooltip">
+                                <span class="tooltiptext">Physics, Chemistry, Bangla, Math, English</span>
+                                <div class="caption">
+                                    <h4>DU 'Kha Unit -75'</h4>
+                                    <small>Physics, chemistry ...</small>
+                                    <p class="note"><small>Exam taken: 700</small></p>
+                                </div>
+                            </div>
+                          </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3">
+                            <div class="test-name "id="tooltip">
+                                <span class="tooltiptext">Physics, Chemistry, Bangla, Math, English</span>
+                                <div class="caption">
+                                    <h4>DU 'Kha Unit -75'</h4>
+                                    <small>Physics, chemistry ...</small>
+                                    <p class="note"><small>Exam taken: 700</small></p>
+                                </div>
+                            </div>
+                          </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3">
+                            <div class="test-name "id="tooltip">
+                                <span class="tooltiptext">Physics, Chemistry, Bangla, Math, English</span>
+                                <div class="caption">
+                                    <h4>DU 'Kha Unit -75'</h4>
+                                    <small>Physics, chemistry ...</small>
+                                    <p class="note"><small>Exam taken: 700</small></p>
+                                </div>
+                            </div>
+                          </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3">
+                            <div class="test-name "id="tooltip">
+                                <span class="tooltiptext">Physics, Chemistry, Bangla, Math, English</span>
+                                <div class="caption">
+                                    <h4>DU 'Kha Unit -75'</h4>
+                                    <small>Physics, chemistry ...</small>
+                                    <p class="note"><small>Exam taken: 700</small></p>
+                                </div>
+                            </div>
+                          </div>
+                        <div class="col-md-4 col-sm-6 col-lg-3">
+                            <div class="test-name "id="tooltip">
+                                <span class="tooltiptext">Physics, Chemistry, Bangla, Math, English</span>
+                                <div class="caption">
+                                    <h4>DU 'Kha Unit -75'</h4>
+                                    <small>Physics, chemistry ...</small>
+                                    <p class="note"><small>Exam taken: 700</small></p>
+                                </div>
+                            </div>
+                          </div>
+                        
+                    </div>
+                    <div class="pagination">
+                        <a title="first page"><svg fill="currentColor">
+                                <path
+                                    d="M17.59 18L19 16.59 14.42 12 19 7.41 17.59 6l-6 6zM11 18l1.41-1.41L7.83 12l4.58-4.59L11 6l-6 6z" />
+                            </svg></a>
+                        <!-- single left arrow-->
+                        <!-- <a title="previous page"><svg fill="currentColor">
+                                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+                            </svg></a> -->
+                        <a class="page page-active">1</a>
+                        <a class="page">2</a>
+                        <a class="page">3</a>
+                        <a class="page">4</a>
+                        <span class="page-dots">...</span>
+                        <!-- single right arrow -->
+                        <!-- <a title="next page"><svg fill="currentColor">
+                                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+                            </svg></a> -->
+                        <a title="last page"><svg fill="currentColor">
+                                <path
+                                    d="M6.41 6L5 7.41 9.58 12 5 16.59 6.41 18l6-6zM13 6l-1.41 1.41L16.17 12l-4.58 4.59L13 18l6-6z" />
+                            </svg></a>
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+
+                    <!-- categories -->
+                    <div class="popular">
+                        <h3>Popular Categories</h3>
+                        <div class="subject">
+                            <h4>Popular Subjects</h4>
+                            <ul>
+                                <li>English</li>
+                                <li>BCS</li>
+                                <li>Bank</li>
+                                <li>Science</li>
+                                <li>Programming</li>
+                                <li>GK</li>
+                            </ul>
+                        </div>
+                        <div class="model_tests">
+                            <!-- Populer tests -->
+                            <h4>Popular Model Tests</h3>
+                                <ul>
+                                    <li>11th BCS</li>
+                                    <li>HSC Model Test 2022</li>
+                                    <li>English Model Test 12</li>
+                                    <li>English Model Test 12</li>
+                                    <li>English Model Test 12</li>
+                                    <li>English Model Test 12</li>
+                                    <li>Bank Model Test 11</li>
+                                </ul>
+                        </div>
+
+                        <div class="bcs">
+                            <!-- BCS -->
+                            <h4>BCS</h4>
+                            <ul>
+                                <li>BCS Model Test 11</li>
+                                <li>BCS Model Test 12</li>
+                                <li>BCS Model Test 13</li>
+                                <li>BCS Model Test 14</li>
+                                <li>BCS Model Test 15</li>
+                                <li>BCS Model Test 16</li>
+                                <li>BCS Model Test 17</li>
+                                <li>BCS Model Test 18</li>
+                            </ul>
 
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
-
     </section>
 
-
-
+    <!-- footer -->
     <section class="footer">
         <div class="pg-footer">
             <footer class="footer">
@@ -384,12 +567,8 @@
             </footer>
         </div>
     </section>
-
-
     <!-- Jquery needed -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/main.js"></script>
-
 </body>
 
 </html>
