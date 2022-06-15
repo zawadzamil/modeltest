@@ -19,8 +19,6 @@
 }
 
 
-
-
 .exam_details{
     .row{
         margin-bottom: 2rem;
@@ -41,6 +39,7 @@
                 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
                 font-size: 90%;
                 padding-left: 3%;
+                padding-right: 3%;
                 &:focus{
                     box-shadow: rgb(198, 225, 248) 3px 3px 6px 0px inset, rgba(197, 189, 189, 0.5) -3px -3px 6px 1px inset;
                 }
@@ -276,8 +275,257 @@
                       }
           
                     }
+                }
+            }
+        }
+    } 
+}
+
+@media (max-width:991px) {
+.exam_details{
+    .row{
+        .popular{
+            .subject {
+                width: 11rem;
+                ul{
+                    font-size: 0.8rem;
+                    padding-left: 10%;
                   }
             }
-        }  
-    } 
+            .model_tests{
+                width: 11rem;
+                ul{
+                    font-size: 0.8rem;
+                    padding-left: 7%;
+                  }
+            }
+            .bcs{
+                width: 11rem;
+                ul{
+                    font-size: 0.8rem;
+                    padding-left: 2%;
+                  }
+            }
+        }
+    }
+}
+}
+@media (max-width: 767px) {
+.exam_details{
+    .row{
+        .inner{
+            padding: 0% !important;
+            margin-top: 3rem;
+            .enter-input{
+                width: 100%;
+                font-size: 90%;
+                padding-left: 25%;
+                padding-right: 25%;
+                text-align: center;
+            }
+            .dropdown{
+                .questions{
+                    width: 50%;
+                    margin-top: 5%;
+                    margin-left: 25%;
+                }
+                .dropdown-menu{
+                    width: 50%;
+                }
+            }
+        }
+
+        .second{
+            margin-top: 15%;
+            .test-name{
+                .caption {
+                    padding: 1rem 1rem 3rem 1rem;
+                    .note{
+                        margin-top: 20%;
+                    }
+                }
+            }
+        }
+
+        .popular{
+            margin-top: 15%;
+                .subject {
+                    margin-top: 5%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 15rem;
+                    ul{
+                        font-size: 0.8rem;
+                        padding-left: 10%;
+                    }
+                }
+                .model_tests{
+                    width: 15rem;
+                    margin-left: auto;
+                    margin-right: auto;
+                    ul{
+                        font-size: 0.8rem;
+                        padding-left: 8%;
+                    }
+                }
+                .bcs{
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 15rem;
+                    ul{
+                        font-size: 0.8rem;
+                        padding-left: 2%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 575px) {
+.exam_details{
+    .row{
+        .inner{
+            padding: 0% !important;
+            margin-top: 3rem;
+            .enter-input{
+                margin-left: 22%;
+                width: 60%;
+                font-size: 90%;
+                padding-left: 5%;
+                padding-right: 5%;
+                text-align: center;
+            }
+            .dropdown{
+                .questions{
+                    width: 50%;
+                    margin-top: 5%;
+                    margin-left: 27%;
+                }
+                .dropdown-menu{
+                    width: 50%;
+                }
+            }
+        }
+
+        .second{
+            margin-top: 15%;
+            .test-name{
+                .caption {
+                    padding: 1rem 1rem 3rem 1rem;
+                    .note{
+                        margin-top: 15%;
+                    }
+                  }
+                width: 60%;
+                margin-left: 22%;
+            }
+        }
+
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1%;
+            margin-top: 4%;
+            margin-left: 5%;
+            >a {
+                background-color: #ddd;
+                color: #636363;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                font-size: 13px;
+                width: 25px;
+                height: 25px;
+                text-decoration: none;
+                position: relative;
+                font-family: Helvetica, Arial, sans-serif;
+                &:hover {
+                    background-color: rgb(37, 82, 37);
+                    color: #fff;
+                }
+            }
+            >span {
+                background-color: #ddd;
+                color: #636363;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                font-size: 13px;
+                width: 25px;
+                height: 25px;
+                text-decoration: none;
+                position: relative;
+                font-family: Helvetica, Arial, sans-serif;
+                pointer-events: none;
+            }
+            svg {
+                height: 20px;
+                width: 20px;
+            }
+            >a.page-active {
+                background-color: green;
+                color: #fff;
+            }
+        }
+
+
+        .popular{
+            margin-top: 15%;
+                .subject {
+                    margin-top: 5%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 15rem;
+                    ul{
+                        font-size: 0.8rem;
+                        padding-left: 10%;
+                    }
+                }
+                .model_tests{
+                    width: 15rem;
+                    margin-left: auto;
+                    margin-right: auto;
+                    ul{
+                        font-size: 0.8rem;
+                        padding-left: 8%;
+                    }
+                }
+                .bcs{
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 15rem;
+                    ul{
+                        font-size: 0.8rem;
+                        padding-left: 2%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 362px) {
+    .exam_details{
+        .row{
+            h3{
+                margin-left: 2%;
+            }
+            .inner{
+                padding: 0% !important;
+                margin-top: 2rem;
+                .enter-input{
+                    margin-left: 17%;
+                    width: 70%;
+                    font-size: 80%;
+                    padding-left: 0%;
+                    padding-right: 0%;
+                    text-align: center;
+                }
+            }
+        }
+    }
 }
