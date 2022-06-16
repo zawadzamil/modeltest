@@ -158,7 +158,7 @@
           font-family: $ffPara2;
           font-weight: bold;
         }
-       @include button;
+        @include button;
       }
       &:hover{
         @include boxHover;

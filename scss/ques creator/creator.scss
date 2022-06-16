@@ -1,0 +1,217 @@
+@import "../mixin";
+@import "../var";
+
+.creator{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    h2{
+        margin-top: 3rem;
+        text-align: center;
+    }
+    .creator-info{
+        margin-top: 1rem;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid;
+        .details-creator{
+            h5{
+                font-size: 1rem;
+                span{
+                    margin-left: 3%;
+                }
+            }
+            margin-left: 5%;
+            margin-top: 5%;
+        }
+        .image-div{
+            margin-left: auto;
+            margin-right: auto;
+            width: 25%;
+            height: 6.5rem;
+            margin-top: 4%;
+            img{
+                @include imgFit;
+            }
+        }
+    }
+
+    .note-div{
+        width: 40%;
+        margin-top: 3rem;
+        margin-left: auto;
+        margin-right: auto;
+        .note{
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 5px;
+            h5{
+                font-size: 100%;
+                padding: 4%;
+            }
+        }
+    }
+}
+
+.button-section{
+    .for-button{
+        height: 5rem;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto ;
+        .add{
+            width: 50%;
+            text-align: center;
+
+        // add question button
+        .My-circle-Button {
+            width: 120px;
+            height: 40px;
+            margin-top: 1rem;
+            border-radius: 25px;
+            background: none;
+            color: #000;
+            border: 2px solid rgba(0, 0, 0, 0.507);
+            &:after {
+                content: "✚ Add Questions";
+                font-size: 80%;
+                line-height: 30px;
+                font-weight: 700;
+            }
+            &:hover {
+                background-color: cadetblue;
+                border: none;
+                color: $white;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            }
+        }
+        
+        // Create model-test button
+        .circle-Button {
+            width: 120px;
+            height: 40px;
+            margin-top: 1rem;
+            border-radius: 25px;
+            background: none;
+            color: #000;
+            border: 2px solid rgba(0, 0, 0, 0.507);
+            &:after {
+                content: "✚ Create Test";
+                font-size: 80%;
+                line-height: 30px;
+                font-weight: 700;
+            }
+            &:hover {
+                background-color: cadetblue;
+                border: none;
+                color: $white;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            }
+        }
+        }
+    }
+    
+}
+
+.view-btn{
+    text-align: center;
+    @include button;
+    margin-left: 1%;
+}
+
+@media (max-width: 991px) {
+    .creator{
+        .creator-info{
+            width: 50%;
+            .image-div{
+                width: 32%;
+            }
+        }
+        .note-div{
+            width: 70%;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .creator{
+        .creator-info{
+            width: 80%;
+            .details-creator{
+                h5{
+                    font-size: 100%;
+                }
+            }
+        }
+    }
+
+    .note-div{
+        width: 40%;
+        .note{
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 5px;
+            margin-top: 5%;
+        }
+    }
+
+    .button-section{
+        .for-button{
+            height: auto;
+            width: 50%;
+        }
+    }
+    .view-btn{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        text-align: center;
+        @include button;
+        margin-left: 1%;
+    }
+}
+@media (max-width: 499px) {
+    .creator{
+        .creator-info{
+            width: 80%;
+        }
+    }
+
+    .button-section{
+        .for-button{
+            width: 60%;
+        }
+    }
+    .view-btn{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 1%;
+    }
+}
+@media (max-width: 499px) {
+    .creator{
+        .creator-info{
+            width: 90%;
+        }
+    }
+
+    .note-div{
+        .note{
+            margin-top: 10%;
+        }
+    }
+
+    .button-section{
+        .for-button{
+            width: 95%;
+        }
+    }
+    .view-btn{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 1%;
+    }
+}
+    
