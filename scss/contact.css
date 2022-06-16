@@ -368,9 +368,6 @@
   .details {
     margin-left: 0%;
   }
-  .details .row {
-    background-color: red;
-  }
   .details .row h5 {
     font-size: 1rem;
   }
