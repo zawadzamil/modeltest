@@ -230,13 +230,14 @@
     }
 
     .details{
+        margin-left: 0%;
         .row{
+            background-color: red;
             h5{
                 font-size: 1rem;
             }
         }
         .card{
-
                 h5{
                     font-size: 12px;
                 }
@@ -256,7 +257,7 @@
             margin-bottom: 2rem;
             margin-left: auto;
             margin-right: auto;
-            width: 40%;
+            width: 70%;
             height: 70%;
         }
     }
@@ -298,6 +299,7 @@
 
     .details{
         margin-top: 20%;
+        margin-left: 2%;
         .card{
             h5{
                 font-size: 12px;
@@ -313,7 +315,7 @@
             .locate{
                 width: 1.5rem;
             }
-            width: 40%;
+            width: 50%;
             height: 80%;
             border-radius: 10px;
         }
