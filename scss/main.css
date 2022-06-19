@@ -306,6 +306,21 @@ body {
   }
 }
 
+@media (max-width: 575px) {
+  .featured {
+    margin-top: 10%;
+  }
+  .featured .row .fe {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .featured .row .featured_element {
+    width: 100%;
+    height: 10rem;
+  }
+}
+
 .register {
   margin-bottom: 2rem;
 }
@@ -845,6 +860,34 @@ body {
   }
 }
 
+@media (max-width: 575px) {
+  .register .row .student {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .register .row .student .titles h5 {
+    font-size: 100%;
+  }
+  .register .row .teacher {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .register .row .teacher .titles h5 {
+    font-size: 100%;
+  }
+  .register .row .hot {
+    padding-left: 1.5%;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .register .row .hot .content ul li {
+    font-size: 75%;
+  }
+}
+
 @media (max-width: 991px) {
   .hot ul {
     padding-left: 0%;
@@ -1139,6 +1182,18 @@ body {
             transform: translateY(-1.5rem);
     -webkit-box-shadow: rgba(243, 239, 32, 0.774) 0px 30px 90px;
             box-shadow: rgba(243, 239, 32, 0.774) 0px 30px 90px;
+  }
+}
+
+@media (max-width: 575px) {
+  .about {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3%;
+  }
+  .about .row .details h5 {
+    font-size: 100%;
   }
 }
 
