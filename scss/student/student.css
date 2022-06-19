@@ -1,0 +1,248 @@
+/* Extra */
+@import url("https://fonts.googleapis.com/css?family=Mukta:700");
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans);
+@import url("http://fonts.googleapis.com/css?family=Kdam Thmor Pro");
+@import url("http://fonts.googleapis.com/css?family=Bebas Neue");
+@import url("http://fonts.googleapis.com/css?family=PT Sans Narrow");
+@import url("http://fonts.googleapis.com/css?family=Rajdhani");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Play");
+@import url("https://fonts.googleapis.com/css?family=Bree Serif");
+:root {
+  --sub-1: 40%;
+  --sub-2: 70%;
+  --sub-3: 50%;
+  --sub-4: 05%;
+  --sub-5: 100%;
+}
+
+.student-details {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+.student-details h2 {
+  margin-top: 3rem;
+  text-align: center;
+  font-family: Bebas Neue;
+}
+
+.student-details .student-info {
+  margin-top: 1rem;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid;
+}
+
+.student-details .student-info .profile-student {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.student-details .student-info .profile-student h5 {
+  font-size: 1rem;
+}
+
+.student-details .student-info .profile-student h5 span {
+  margin-left: 3%;
+}
+
+.student-details .student-info .image-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: 6.5rem;
+  margin-top: 4%;
+}
+
+.student-details .student-info .image-div img {
+  max-height: 100%;
+  max-width: 100%;
+  min-height: 100%;
+}
+
+.participatiion .p-sub {
+  margin-top: 6%;
+}
+
+.participatiion .p-sub h4 {
+  margin-bottom: 2rem;
+  font-family: Bebas Neue;
+}
+
+.participatiion .p-sub .test {
+  border-radius: 0.5rem;
+  text-align: center;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-bottom: 2rem;
+  -webkit-box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+          box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.participatiion .p-sub .button {
+  margin-left: auto;
+  width: 10rem;
+}
+
+.participatiion .p-sub .button .butn:link,
+.participatiion .p-sub .button .butn:visited {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #5e16bd;
+  background-image: -webkit-gradient(linear, left top, right top, from(#501aa8), to(#870de8));
+  background-image: linear-gradient(90deg, #501aa8, #870de8);
+  padding: 0.5rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 10rem;
+  margin-right: 13px;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.participatiion .p-sub .button .butn::before {
+  background: #fff;
+  content: "";
+  height: 155px;
+  opacity: 0;
+  position: absolute;
+  top: -50px;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+  width: 50px;
+  -webkit-transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.participatiion .p-sub .button .butn::after {
+  background: #fff;
+  content: "";
+  height: 20rem;
+  opacity: 0;
+  position: absolute;
+  top: -50px;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+  -webkit-transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
+  width: 8rem;
+}
+
+.participatiion .p-sub .button .butn__new::before {
+  left: -50%;
+}
+
+.participatiion .p-sub .button .butn__new::after {
+  left: -100%;
+}
+
+.participatiion .p-sub .button .butn:hover,
+.participatiion .p-sub .button .butn:active {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  color: #fff;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.participatiion .p-sub .button .butn__new:hover::before {
+  left: 120%;
+  opacity: 0.5s;
+}
+
+.participatiion .p-sub .button .butn__new:hover::after {
+  left: 200%;
+  opacity: 0.6;
+}
+
+.participatiion .p-sub .button .butn span {
+  z-index: 20;
+}
+
+.attended-quiz {
+  margin-top: 6%;
+}
+
+.attended-quiz h4 {
+  margin-bottom: 2rem;
+  font-family: Bebas Neue;
+}
+
+.attended-quiz .test {
+  border-radius: 0.5rem;
+  text-align: center;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-bottom: 2rem;
+  -webkit-box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+          box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.statistics {
+  margin-top: 5%;
+  padding-bottom: 10%;
+}
+
+.statistics h4 {
+  text-align: center;
+  font-family: Bebas Neue;
+  margin-bottom: 2rem;
+}
+
+.statistics .statistics-table {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.statistics .statistics-table tr, .statistics .statistics-table td {
+  font-family: PT Sans Narrow;
+  font-size: 1.3rem;
+}
+
+.statistics .statistics-table tr .progress, .statistics .statistics-table td .progress {
+  height: 12px;
+  margin-top: 1%;
+  border-radius: 1rem;
+}
+
+.statistics .statistics-table tr .progress .sub-1, .statistics .statistics-table td .progress .sub-1 {
+  width: var(--sub-1);
+}
+
+.statistics .statistics-table tr .progress .sub-2, .statistics .statistics-table td .progress .sub-2 {
+  width: var(--sub-2);
+}
+
+.statistics .statistics-table tr .progress .sub-3, .statistics .statistics-table td .progress .sub-3 {
+  width: var(--sub-3);
+}
+
+.statistics .statistics-table tr .progress .sub-4, .statistics .statistics-table td .progress .sub-4 {
+  width: var(--sub-4);
+}
+
+.statistics .statistics-table tr .progress .sub-5, .statistics .statistics-table td .progress .sub-5 {
+  width: var(--sub-5);
+}
+/*# sourceMappingURL=student.css.map */

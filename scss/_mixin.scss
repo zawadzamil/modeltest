@@ -206,8 +206,9 @@
 .butn span {
   z-index: 20;
 }
-
 }
+
+
 
 
 //send button
@@ -323,5 +324,5 @@
 @mixin TrendHover {
   transform: translateY(-0.5rem);
   box-shadow: $shadow81;
-  
 }
+

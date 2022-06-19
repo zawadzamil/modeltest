@@ -1,0 +1,131 @@
+@import "../mixin";
+@import "../var";
+
+:root{
+    --sub-1: 40%;
+    --sub-2: 70%;
+    --sub-3: 50%;
+    --sub-4: 05%;
+    --sub-5: 100%;
+}
+
+// Student profile
+.student-details{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    h2{
+        margin-top: 3rem;
+        text-align: center;
+        font-family: $ffHeading;
+    }
+    .student-info{
+        margin-top: 1rem;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid;
+        .profile-student{
+            h5{
+                font-size: 1rem;
+                span{
+                    margin-left: 3%;
+                }
+            }
+            margin-left: 5%;
+            margin-top: 5%;
+        }
+        .image-div{
+            margin-left: auto;
+            margin-right: auto;
+            width: 25%;
+            height: 6.5rem;
+            margin-top: 4%;
+            img{
+                @include imgFit;
+            }
+        }
+    }
+}
+
+// participation
+.participatiion{
+    .p-sub{
+        margin-top: 6%;
+        h4{
+            margin-bottom: 2rem;
+            font-family: $ffHeading;
+        }
+        .test{
+           border-radius: 0.5rem;
+           text-align: center;
+           width: 100%;
+           padding-top: 5%;
+           padding-bottom: 5%;
+           margin-bottom: 2rem;
+           box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+        }
+        .button{
+            @include button;
+            margin-left: auto;
+            width: 10rem;
+        }
+    }
+}
+
+// attended Quiz
+.attended-quiz{
+    margin-top: 6%;
+    h4{
+        margin-bottom: 2rem;
+        font-family: $ffHeading;
+    }
+    .test{
+        border-radius: 0.5rem;
+        text-align: center;
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-bottom: 2rem;
+        box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    }
+}
+
+// statistics
+.statistics{
+    margin-top: 5%;
+    padding-bottom: 10%;
+    h4{
+        text-align: center;
+        font-family: $ffHeading;
+        margin-bottom: 2rem;
+    }
+    .statistics-table{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        tr, td{
+            font-family: $ffPara1;
+            font-size: 1.3rem;
+            .progress{
+                height: 12px;
+                margin-top: 1%;
+                border-radius: 1rem;
+                .sub-1{
+                    width: var(--sub-1);
+                  }
+                  .sub-2{
+                    width: var(--sub-2);
+                  }
+                  .sub-3{
+                    width: var(--sub-3);
+                  }
+                  .sub-4{
+                    width: var(--sub-4);
+                  }
+                  .sub-5{
+                    width: var(--sub-5);
+                  }
+            }
+        }
+    }
+}
