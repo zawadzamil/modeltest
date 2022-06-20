@@ -57,6 +57,12 @@
   margin-bottom: 1rem;
   -webkit-transition: 200ms;
   transition: 200ms;
+  cursor: default;
+}
+
+.test_subjects .row .subjects a {
+  text-decoration: none;
+  color: #161616;
 }
 
 .test_subjects .row .subjects:hover {

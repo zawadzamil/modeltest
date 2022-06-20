@@ -121,6 +121,10 @@
   font-size: 100%;
 }
 
+.exam_details .row .second .test-name a {
+  color: #161616;
+}
+
 .exam_details .row .second .test-name .caption {
   position: absolute;
   top: 0%;
