@@ -12,7 +12,7 @@
   --sub-1: 40%;
   --sub-2: 70%;
   --sub-3: 50%;
-  --sub-4: 05%;
+  --sub-4: 15%;
   --sub-5: 100%;
 }
 
@@ -51,7 +51,7 @@
 .student-details .student-info .image-div {
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 6rem;
   height: 6.5rem;
   margin-top: 4%;
 }
@@ -80,6 +80,11 @@
   margin-bottom: 2rem;
   -webkit-box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
           box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.participatiion .p-sub .test:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .participatiion .p-sub .button {
@@ -198,6 +203,11 @@
           box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
 
+.attended-quiz .test:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .statistics {
   margin-top: 5%;
   padding-bottom: 10%;
@@ -244,5 +254,121 @@
 
 .statistics .statistics-table tr .progress .sub-5, .statistics .statistics-table td .progress .sub-5 {
   width: var(--sub-5);
+}
+
+@media (max-width: 991px) {
+  .student-details .student-info {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .student-details .student-info {
+    width: 70%;
+  }
+  .student-details .student-info .profile-student h5 {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .student-details .student-info {
+    width: 75%;
+  }
+  .participatiion {
+    margin-top: 5rem;
+  }
+  .participatiion .p-sub {
+    text-align: center;
+  }
+  .participatiion .p-sub .col-sm-6 {
+    width: 50%;
+  }
+  .participatiion .p-sub .col-sm-6 .test {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  .participatiion .p-sub .col-sm-6 .test h5 {
+    font-size: 100%;
+  }
+  .participatiion .p-sub .button {
+    margin-right: 5%;
+  }
+  .attended-quiz {
+    margin-top: 3rem;
+  }
+  .attended-quiz h4 {
+    text-align: center;
+  }
+  .attended-quiz .row {
+    text-align: center;
+  }
+  .attended-quiz .row .col-sm-6 {
+    width: 50%;
+  }
+  .attended-quiz .row .col-sm-6 .test {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  .attended-quiz .row .col-sm-6 .test h5 {
+    font-size: 100%;
+  }
+  .statistics {
+    margin-top: 3rem;
+  }
+  .statistics h4 {
+    margin-bottom: 2rem;
+  }
+  .statistics .statistics-table tr .progress, .statistics .statistics-table td .progress {
+    height: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .participatiion .p-sub .col-sm-6 .test {
+    width: 85%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    margin-bottom: 2rem;
+  }
+  .participatiion .p-sub .col-sm-6 .test h5 {
+    font-size: 0.9rem;
+  }
+  .participatiion .p-sub .button span {
+    font-size: 0.9rem;
+  }
+  .attended-quiz {
+    margin-top: 4rem;
+  }
+  .attended-quiz h4 {
+    text-align: center;
+  }
+  .attended-quiz .row .col-sm-6 .test {
+    width: 85%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    margin-bottom: 2rem;
+  }
+  .attended-quiz .row .col-sm-6 .test h5 {
+    font-size: 0.9rem;
+  }
+  .statistics {
+    margin-top: 3rem;
+  }
+  .statistics .statistics-table {
+    width: 90%;
+  }
+  .statistics .statistics-table tr, .statistics .statistics-table td {
+    font-size: 100%;
+  }
+  .statistics .statistics-table tr .progress, .statistics .statistics-table td .progress {
+    height: 08px;
+  }
 }
 /*# sourceMappingURL=student.css.map */
