@@ -6,174 +6,164 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="scss/main.css">
-    <link rel="stylesheet" href="scss/tests/tests.css">
-
+    <link rel="stylesheet" href="scss/ques creator/set-question.css">
+    <title>Add question</title>
     <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <title>Tests</title>
+
 </head>
 
 <body>
-    <!-- NAVBAR -->
-    <section class="navSection">
-        <div class="navbar navbar-expand-lg fixed-top navbar-dark navbar-transparent">
-            <div class="container">
-                <img class="d-inline-block mx-2 img-fluid" src="images/logo/logo.png" alt="">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="tests.html" class="nav-link">Tests</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="exams.html" class="nav-link">Exam</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="about.html" class="nav-link">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contact.html" class="nav-link">Contact</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
-                                id="themes">Login<span class="caret"></span></a>
-                            <div class="dropdown-menu" aria-labelledby="themes">
-                                <a class="dropdown-item">Admin</a>
-                                <a class="dropdown-item" href="student.html">Student</a>
-                                <a class="dropdown-item" href="ques_creator .html">Question creator</a>
-                                <a class="dropdown-item">Moderator</a>
-                            </div>
-                        </li>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- header -->
-    <section class="test_header">
-        <div class="navigation">
-            <a href="index.html">Home > </a>
-            <a href="tests.html">Tests</a>
-        </div>
-    </section>
-
-    <!-- all test section -->
-    <section class="allTests">
-        <div class="container">
-            <div class="row" id="allTests">
-                <h5>Explore the most recent model tests avaliable currently, keep browsing, as more is always there</h5>
-                <h1>Find Your Prefered Tests</h1>
-            </div>
-            
-            <div class="pagination">
-                <a title="first page"><svg fill="currentColor">
-                        <path
-                            d="M17.59 18L19 16.59 14.42 12 19 7.41 17.59 6l-6 6zM11 18l1.41-1.41L7.83 12l4.58-4.59L11 6l-6 6z" />
-                    </svg></a>
-                <!-- single left arrow-->
-                <!-- <a title="previous page"><svg fill="currentColor">
-                        <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
-                    </svg></a> -->
-                <a class="page page-active">1</a>
-                <a class="page">2</a>
-                <a class="page">3</a>
-                <a class="page">4</a>
-                <span class="page-dots">...</span>
-                <a class="page">6</a>
-                <!-- single right arrow -->
-                <!-- <a title="next page"><svg fill="currentColor">
-                        <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
-                    </svg></a> -->
-                <a title="last page"><svg fill="currentColor">
-                        <path
-                            d="M6.41 6L5 7.41 9.58 12 5 16.59 6.41 18l6-6zM13 6l-1.41 1.41L16.17 12l-4.58 4.59L13 18l6-6z" />
-                    </svg></a>
-            </div>
-        </div>
-    </section>
-
-    <!-- creator section -->
-    <section class="creator">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7">
-                    <div class="details">
-                        <h1>Are You A Question Creator?</h1>
-                        <h5>Register here and Make Your Own
-                            Exam for Your Students
-                        </h5>
-                        <a href="ques_creator .html" class='butn butn__new'><span>Register now</span></a>
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <div class="image">
-                        <img src="images/about/dammy.png">
+    <section class="main container">
+        <!-- NAVBAR -->
+        <section class="navSection">
+            <div class="navbar navbar-expand-lg fixed-top navbar-dark navbar-transparent">
+                <div class="container">
+                    <img class="d-inline-block mx-2 img-fluid" src="images/logo/logo.png" alt="">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="tests.html" class="nav-link">Tests</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="exams.html" class="nav-link">Exam</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="about.html" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link">Contact</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                                    id="themes">Login<span class="caret"></span></a>
+                                <div class="dropdown-menu" aria-labelledby="themes">
+                                    <a class="dropdown-item">Admin</a>
+                                    <a class="dropdown-item" href="student.html">Student</a>
+                                    <a class="dropdown-item" href="ques_creator .html">Question creator</a>
+                                    <a class="dropdown-item">Moderator</a>
+                                </div>
+                            </li>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- trending topics -->
-    <section class="trending">
-        <div class="container">
-            <div class="row ">
-                <div class="col-md-7 col-lg-8 trending_topics">
-                    <h1 class="trendingBack">Trending Topics</h1>
-                    <div id="transitionHov" class="row ">
-                        <div class="col-md-4 col-lg-3 col-sm-6">
-                            <div class="topics">
-                                <h4>English</h4>
-                            </div>
-
-                        </div>
-                        <div class="col-md-4 col-lg-3 col-sm-6">
-                            <div class="topics">
-                                <h4>English</h4>
-                            </div>
-
-                        </div>
-                        <div class="col-md-4 col-lg-3 col-sm-6">
-                            <div class="topics">
-                                <h4>English</h4>
-                            </div>
-
-                        </div>
-                        <div class="col-md-4 col-lg-3 col-sm-6">
-                            <div class="topics">
-                                <h4>English</h4>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-5 col-lg-4 popular_section">
-                    <div class="popular">
-                        <h3>Popular Exam Topics</h3>
-                        <ul>
-                            <li>BCS Model Test 13</li>
-                            <li>BCS Model Test 13</li>
-                            <li>BCS Model Test 13</li>
-                            <li>BCS Model Test 13</li>
-                            <li>BCS Model Test 13</li>
-                            <li>BCS Model Test 13</li>
-                            <li>BCS Model Test 13</li>
-                        </ul>
-                    </div>
-                </div>
+        <!-- select category -->
+        <section class="container category-add">
+            <div class=" set-category">
+                <h2>Set Question</h2>
+                <h4>PLEASE SELECT SUBJECT</h4>
+                <select name="" class="category" id="category">
+                    <option value="" selected disabled>Select Subject</option>
+                    <option value="">Hsc</option>
+                    <option value="">Bcs</option>
+                    <option value="">Ielts</option>
+                    <option value="">Math</option>
+                    <option value="">Bank job</option>
+                    <option value="">Teacher's Exam</option>
+                </select>
+                or <a href="">Add Subject</a>
             </div>
-        </div>
+        </section>
+
+        <!-- select subject  -->
+        <section class="container all-subject" id="all-subject">
+            <h4>PLEASE SELECT SUBJECT</h4>
+            <select name="" class="subject" id="subject">
+                <option value="" selected disabled>Select Subject</option>
+                <option value="">Hsc</option>
+                <option value="">Bcs</option>
+                <option value="">Ielts</option>
+                <option value="">Math</option>
+                <option value="">Bank job</option>
+                <option value="">Teacher's Exam</option>
+            </select>
+            or <a href="">Add Subject</a>
+        </section>
+
+
+        <!-- select number of options -->
+        <section class="container set-details-sec" id="form-details">
+            <div class="container question-type" id="question-type">
+                <h4>Question Type</h4>
+                <select name="" class="selectOption" id="selectOption">
+                    <option value="" selected disabled>Question Type</option>
+                    <option id="checkbox" value="0">Checkbox</option>
+                    <option id="radio" value="1">Radio</option>
+                    <option id="fillBlank" value="2">Fill in the blank</option>
+                </select>
+            </div>
+
+            <div class="text-area" id="text-area">
+                <form class="" action="">
+                    <textarea placeholder="Write Question"></textarea>
+                    <label for="quesFile">Figure:</label>
+                    <input type="file" id="quesField" name="myfile">
+                </form>
+            </div>
+
+            <div class="form-details">
+                <form action="" class="optionform" id="optionform">
+                    <label for="">Number of Option:</label>
+                    <select name="ques-clue" id="ques-clue">
+                        <option value="" selected disabled>Select Number of Options</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <div class="inputs" id="inputs">
+
+                    </div>
+                </form>
+
+                <form action="" class="input-radio" id="input-radio">
+                    <input id="radio-field-1" type="text" placeholder="Option-1">
+                    <input type="file" id="field-label-1" name="">
+
+                    <input id="radio-field-2" type="text" placeholder="Option-2">
+                    <input type="file" id="field-label-2" name="">
+                </form>
+
+                <form action="" class="correctAns" id="correctAns">
+                    <label for="">Correct Ans:</label>
+                    <input type="number" placeholder="Correct Ans">
+                </form>
+
+                <form action="" class="radioButton" id="showRadio-btn">
+                        <label class="form-control">
+                            <input class="text" type="radio" name="radio" />
+                            Show Text
+                        </label>
+
+                        <label class="form-control">
+                            <input class="figure" type="radio" name="radio" />
+                            Show Figure
+                        </label>
+
+                        <label class="form-control">
+                            <input class="both" type="radio" name="radio" />
+                            Show Both
+                        </label>
+                </form>
+            </div>
+            <div class="container submit-btn" id="submit">
+                <a href="#" class='butn butn__new'><span>submit</span></a>
+            </div>
+        </section>
+
+
     </section>
 
 
@@ -346,11 +336,7 @@
         </div>
     </section>
 
-
-    <!-- Jquery needed -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/test.js"></script>
+    <script src="js/set-question.js"></script>
 </body>
 
 </html>
