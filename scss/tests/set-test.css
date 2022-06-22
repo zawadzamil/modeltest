@@ -363,6 +363,7 @@ main {
   }
   .main .testForm .input-field .time-field {
     width: 50%;
+    margin-top: 1.5rem;
   }
   .main .testForm .input-field .time-field .time-input {
     border: none;
