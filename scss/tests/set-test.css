@@ -10,6 +10,7 @@
 @import url("https://fonts.googleapis.com/css?family=Bree Serif");
 main {
   min-height: 65rem;
+  margin-bottom: 10rem;
 }
 
 .main {
