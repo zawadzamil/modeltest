@@ -261,12 +261,6 @@ main{
                         color: $white;
                         height: 2rem;
                         width: 11rem;
-                        padding-left: 2%;
-                        padding-right: 2%;
-                        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-                        option{
-                            background-color: rgb(6, 74, 97);
-                        }
                     }
                 }
                 .subject-select{
@@ -275,7 +269,7 @@ main{
                     }
                     #subject{
                         height: 2rem;
-                        width: 83%;
+                        width: 11.5rem;
                     }
                 }
             }

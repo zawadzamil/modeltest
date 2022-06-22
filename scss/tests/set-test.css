@@ -372,20 +372,13 @@ main {
     color: #fff;
     height: 2rem;
     width: 11rem;
-    padding-left: 2%;
-    padding-right: 2%;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  }
-  .main .testForm .making-test .category-select #category option {
-    background-color: #064a61;
   }
   .main .testForm .making-test .subject-select label {
     font-weight: 600;
   }
   .main .testForm .making-test .subject-select #subject {
     height: 2rem;
-    width: 83%;
+    width: 11.5rem;
   }
   .main .testForm .input-field {
     width: 78.3%;
