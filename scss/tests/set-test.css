@@ -395,9 +395,13 @@ main {
   }
   .main .testForm .filter-question .search-category {
     width: 50%;
+    padding-left: 0%;
+    margin-left: 0%;
   }
   .main .testForm .filter-question .search-subject {
     width: 50;
+    padding-left: 0%;
+    margin-left: 0%;
   }
 }
 
