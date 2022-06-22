@@ -1,0 +1,377 @@
+@import "../mixin";
+@import "../var";
+
+main{
+    min-height: 65rem;
+}
+
+.main{
+    margin-top: 5rem;
+    h2{
+        font-family: $ffHeading;
+        text-align: center;
+    }
+    h5{
+        text-align: center;
+    }
+    .testForm{
+        min-height: 50rem;
+        margin-top: 3rem;
+        padding-bottom: 4rem;
+        background-color: whitesmoke;
+        .making-test{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 1.5rem;
+            .category-select{
+                label{
+                    font-weight: 600;
+                }
+                #category{
+                    border-radius: 5px;
+                    border: none;
+                    outline: none;
+                    background-color: darkblue;
+                    color: $white;
+                    height: 2rem;
+                    width: 12rem;
+                    padding-left: 2%;
+                    padding-right: 2%;
+                    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                    option{
+                        background-color: rgb(6, 74, 97);
+                    }
+                }
+            }
+            .subject-select{
+                label{
+                    font-weight: 600;
+                }
+                #subject{
+                    border-radius: 5px;
+                    border: none;
+                    outline: none;
+                    background-color: darkblue;
+                    color: $white;
+                    height: 2rem;
+                    width: 13rem;
+                    padding-left: 2%;
+                    padding-right: 2%;
+                    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                    option{
+                        background-color: rgb(6, 74, 97);
+                    }
+                }
+            }
+        }
+        
+        .input-field{
+            width: 78.3%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 2rem;
+            .title-field{
+                .title-input{
+                    border: none;
+                    outline: none;
+                    height: 2rem;
+                    width: 70%;
+                    border-radius: 5px;
+                    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                }
+            }
+            .time-field{
+                .time-input{
+                    border: none;
+                    outline: none;
+                    height: 2rem;
+                    border-radius: 5px;
+                    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                }
+            }
+        }
+        
+        .select-number{
+            width: 73%;
+            margin-top: 2rem;
+            text-align: center;
+            padding: 0%;
+            margin-left: auto;
+            margin-right: auto;
+            .no-of-question{
+                #question-num{
+                    width: 100%;
+                    height: 2rem;
+                    font-size: 90%;
+                    color: $white;
+                    border: none;
+                    outline: none;
+                    border-radius: 5px;
+                    background-color: darkblue;
+                    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                }
+            }
+
+            .point{
+                #questionPoint{
+                    width: 100%;
+                    height: 2rem;
+                    font-size: 90%;
+                    color: $white;
+                    border: none;
+                    outline: none;
+                    border-radius: 5px;
+                    background-color: darkblue;
+                    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                }
+            }
+
+            .minuspoint{
+                #negative-Point{
+                    width: 100%;
+                    height: 2rem;
+                    font-size: 90%;
+                    color: $white;
+                    border: none;
+                    outline: none;
+                    border-radius: 5px;
+                    background-color: darkblue;
+                    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                }
+            }
+        }
+        h3{
+            margin-top: 5rem;
+            text-align: center;
+            font-family: $ffHeading;
+            opacity: 0.8;
+        }
+        .question-title{
+            width: 71%;
+            margin-top: 1rem;
+            margin-left: auto;
+            margin-right: auto;
+            label{
+                font-weight: 600;
+                input[type=radio] {
+                    width: 1rem;
+                    height: 1rem;
+                    line-height: 20px;
+                }
+            }
+        }
+        .filter-label{
+            width: 80%;
+            margin-top: 2rem;
+            display: flex;
+            justify-content: space-between;
+            h4{
+                text-align: center;
+                padding-top: 15px;
+                border-radius: 3rem;
+            }
+        }
+
+        .filter-question{
+            width: 75%;
+            margin-top: 1.5rem;
+            margin-left: auto;
+            margin-right: auto;
+            .search-category{
+                .filter-category{
+                    border-radius: 5px;
+                    border: none;
+                    outline: none;
+                    background-color: darkblue;
+                    color: $white;
+                    height: 2rem;
+                    width: 11rem;
+                    padding-left: 2%;
+                    padding-right: 2%;
+                    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                    option{
+                        background-color: rgb(6, 74, 97);
+                    }
+                }
+            }
+
+            .search-subject{
+                .filter-subject{
+                    border-radius: 5px;
+                    border: none;
+                    outline: none;
+                    background-color: darkblue;
+                    color: $white;
+                    height: 2rem;
+                    width: 11rem;
+                    padding-left: 2%;
+                    padding-right: 2%;
+                    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                    option{
+                        background-color: rgb(6, 74, 97);
+                    }
+                }
+            }
+        }
+
+        .submit-btn{
+            @include button;
+            width: 50%;
+            margin-top: 7rem;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+        .simple-question{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 3rem;
+            text-align: center;
+            border: 2px solid rgb(177, 177, 224);
+            h5{
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 991px) {
+    .main{
+        .testForm{
+            .input-field{
+                width: 78.3%;
+                margin-top: 2rem;
+                .title-field{
+                    .title-input{
+                        width: 90%;
+                    }
+                }
+                .time-field{
+                    width: 50%;
+                    .time-input{
+                        border: none;
+                        outline: none;
+                        height: 2rem;
+
+                    }
+                }
+            }
+            
+            .select-number{
+                width: 78%;
+                margin-top: 2rem;
+            }
+
+            .question-title{
+                width: 71%;
+                margin-top: 2rem;
+                padding-left: 0%;
+                margin-left: auto;
+                margin-right: auto;
+                label{
+                    font-weight: 600;
+                    input[type=radio] {
+                        width: 1rem;
+                        height: 1rem;
+                        line-height: 20px;
+                    }
+                }
+            }
+
+            .filter-question{
+                margin-top: 2rem;
+                margin-left: auto;
+                margin-right: auto;
+                .search-category{
+                    width: 50%;
+                }
+    
+                .search-subject{
+                    width: 50;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 767px) {
+    .main{
+        .making-test{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 1.5rem;
+
+            .subject-select{
+                margin-top: 1.5rem;
+                label{
+                    font-weight: 600;
+                }
+            }
+        }
+
+        .input-field{
+            width: 78.3%;
+            margin-top: 2rem;
+            .title-field{
+                width: 60%;
+                .title-input{
+                    width: 100%;
+                }
+            }
+            .time-field{
+                width: 40%;
+                .time-input{
+                    width: 85%;
+                }
+            }
+        }
+
+        .select-number{
+            .no-of-question{
+                width: 60%;
+            }
+            .point{
+                width: 60%;
+                margin-top: 1.5rem;
+            }
+            .minuspoint{
+                width: 60%;
+                margin-top: 1.5rem;
+            }
+        }
+
+        .question-title{
+            width: 71%;
+            margin-top: 2rem;
+            margin-left: auto;
+            margin-right: auto;
+            label{
+                font-weight: 600;
+                input[type=radio] {
+                    width: 1rem;
+                    height: 1rem;
+                }
+            }
+        }
+
+        .filter-question{
+            margin-top: 2rem;
+            margin-left: auto;
+            margin-right: auto;
+
+            .search-category{
+                width: 100%;
+            }
+
+            .search-subject{
+                width: 100%;
+                margin-top: 1rem;
+            }
+        }
+    }
+}

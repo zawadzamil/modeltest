@@ -37,6 +37,8 @@
   background-color: darkblue;
   color: #fff;
   border-radius: 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+          box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 .main .category-add .set-category h4 {
@@ -72,6 +74,8 @@
   background-color: darkblue;
   color: #fff;
   border-radius: 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+          box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 .main .all-subject h4 {
@@ -118,6 +122,8 @@
   border-radius: 5px;
   border: none;
   outline: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+          box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 .main .set-details-sec .question-type .selectOption option {
@@ -164,6 +170,8 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+          box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 .main .set-details-sec .form-details .optionform input {
