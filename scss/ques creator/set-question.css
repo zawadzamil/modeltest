@@ -376,37 +376,150 @@
     width: 100%;
     margin-top: 5rem;
   }
-  .main .category-add .set-category {
-    text-align: center;
-    background-color: cyan;
-  }
-  .main .category-add .set-category h2 {
-    font-size: 2rem;
-    font-family: Bebas Neue;
-  }
   .main .category-add .set-category .category {
-    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    width: 11rem;
+    height: 2rem;
+    padding-left: 2%;
+    margin-top: 0.5rem;
+  }
+  .main .all-subject {
+    width: 100%;
+    text-align: center;
+  }
+  .main .all-subject .subject {
+    margin-left: auto;
+    margin-right: auto;
+    width: 11rem;
+    height: 2rem;
+    padding-left: 2%;
+    margin-top: 0.5rem;
+  }
+  .main .set-details-sec .question-type .selectOption {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .main .set-details-sec .text-area {
+    width: 90%;
+    padding-top: 3rem;
+  }
+  .main .set-details-sec .form-details .optionform {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  .main .set-details-sec .form-details .correctAns {
+    margin-top: 2rem;
+    width: 56%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main .set-details-sec .form-details .correctAns input {
+    margin-top: 1rem;
+    height: 2rem;
+    padding-left: 2%;
+  }
+  .main .set-details-sec .form-details .radioButton {
+    margin-top: 2.5rem;
     width: 100%;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
-  .main .category-add .set-category .category .option {
-    max-width: 100% !important;
-    font-size: 100%;
-  }
-  .main .category-add .set-category h4 {
-    font-family: Bebas Neue;
-    text-align: center;
-  }
-  .main .category-add .set-category a {
-    text-decoration: none;
-    color: #000;
-    font-weight: 700;
-    font-size: 90%;
-    font-family: Play;
-  }
-  .main .category-add .set-category a:hover {
+  .main .set-details-sec .form-details .radioButton label {
+    background-color: #c3ecf7;
     border: none;
-    color: blue;
+  }
+  .main .set-details-sec .submit-btn {
+    background-color: #004658;
+    width: 100%;
+    margin-top: 5rem;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  .main .set-details-sec .submit-btn .butn:link,
+  .main .set-details-sec .submit-btn .butn:visited {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #5e16bd;
+    background-image: -webkit-gradient(linear, left top, right top, from(#501aa8), to(#870de8));
+    background-image: linear-gradient(90deg, #501aa8, #870de8);
+    padding: 0.5rem;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 10rem;
+    margin-right: 13px;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .main .set-details-sec .submit-btn .butn::before {
+    background: #fff;
+    content: "";
+    height: 155px;
+    opacity: 0;
+    position: absolute;
+    top: -50px;
+    -webkit-transform: rotate(35deg);
+            transform: rotate(35deg);
+    width: 50px;
+    -webkit-transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .main .set-details-sec .submit-btn .butn::after {
+    background: #fff;
+    content: "";
+    height: 20rem;
+    opacity: 0;
+    position: absolute;
+    top: -50px;
+    -webkit-transform: rotate(35deg);
+            transform: rotate(35deg);
+    -webkit-transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
+    width: 8rem;
+  }
+  .main .set-details-sec .submit-btn .butn__new::before {
+    left: -50%;
+  }
+  .main .set-details-sec .submit-btn .butn__new::after {
+    left: -100%;
+  }
+  .main .set-details-sec .submit-btn .butn:hover,
+  .main .set-details-sec .submit-btn .butn:active {
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+    color: #fff;
+    -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+            box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+  }
+  .main .set-details-sec .submit-btn .butn__new:hover::before {
+    left: 120%;
+    opacity: 0.5s;
+  }
+  .main .set-details-sec .submit-btn .butn__new:hover::after {
+    left: 200%;
+    opacity: 0.6;
+  }
+  .main .set-details-sec .submit-btn .butn span {
+    z-index: 20;
   }
 }
 /*# sourceMappingURL=set-question.css.map */

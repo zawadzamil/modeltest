@@ -244,37 +244,82 @@
             width: 100%;
             margin-top: 5rem;
             .set-category{
-                text-align: center;
-                background-color: cyan;
-                h2{
-                    font-size: 2rem;
-                    font-family: $ffHeading;
+                .category{
+                margin-left: auto;
+                margin-right: auto;
+                width: 11rem;
+                height: 2rem;
+                padding-left: 2%;
+                margin-top: 0.5rem;
+            }
+            }
+        }
+        
+        .all-subject{
+            width: 100%;
+            text-align: center;
+            .subject{
+                margin-left: auto;
+                margin-right: auto;
+                width: 11rem;
+                height: 2rem;
+                padding-left: 2%;
+                margin-top: 0.5rem;
+            }
+        }
+
+
+        .set-details-sec{
+            .question-type{
+                .selectOption{
+                    padding-left: 4%;
+                    padding-right: 4%;
                 }
-            .category{
-                background-color: red;
+            }
+            
+            .text-area{
+                width: 90%;
+                padding-top: 3rem;
+            }
+            .form-details{
+                .optionform{
+                    text-align: center;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 70%;
+
+                }
+
+                .correctAns{
+                    margin-top: 2rem;
+                    width: 56%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    input{
+                        margin-top: 1rem;
+                        height: 2rem;
+                        padding-left: 2%;
+                    }
+                }
+                .radioButton{
+                    margin-top: 2.5rem;
+                    width: 100%;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    label{
+                        background-color: #c3ecf7;
+                        border: none;
+                    }
+                }
+            }
+            .submit-btn{
+                background-color: $base_color;
                 width: 100%;
-                display: block;
-                .option{
-                    max-width: 100% !important;
-                    font-size: 100%;
-                }
-            }
-            h4{
-                font-family: $ffHeading;
+                margin-top: 5rem;
                 text-align: center;
-            }
-            a{
-                // add question button
-                text-decoration: none;
-                color: #000;
-                font-weight: 700;
-                font-size: 90%;
-                font-family: $ffHeading2;
-                &:hover {
-                    border: none;
-                    color: blue;
-                }
-                }
+                @include button;
+                padding-bottom: 1rem;
             }
         }
     }
