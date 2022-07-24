@@ -1,0 +1,85 @@
+@import "../mixin";
+@import "../var";
+
+.page{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    header{
+        font-family: $ffHeading;
+        text-align: center;
+    }
+    .main{
+        min-height: 40rem;
+        .row{
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 1rem;
+
+            .view-m-test{
+                width: 15.5rem;
+                margin-left: auto;
+                margin-right: auto;
+                .view-test{
+                    position: relative;
+                    padding-top: 1rem;
+                    text-align: center;
+                    width: 13rem; 
+                    height: 11rem;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    background-color: $white;
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+                    h5{
+                        margin-top: 1rem;
+                        opacity: 0.9;
+                        font-size: 16px;
+                    }
+
+                    p{
+                        width: 100%;
+                        background-color: rgb(221, 216, 216);
+                        font-weight: 400;
+                        position: absolute;
+                        top: 87%;
+                    }
+                    
+                }
+                .btn-view{
+                    text-align: center;
+                    margin-top: 1rem;
+                    margin-bottom: 1.5rem;
+                    .test-edit{
+                        text-decoration: none;
+                        margin: 2%;
+                        border: 2px solid black;
+                        padding: 2px 1rem 2px 1rem;
+                        border-radius: 5px;
+                        color: black;
+                        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+                        &:hover{
+                            background-color: $base_color;
+                            color: $white;
+                            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                        }
+                    }
+                    .test-delete{
+                        text-decoration: none;
+                        margin: 2%;
+                        border: 2px solid black;
+                        padding: 2px 1rem 2px 1rem;
+                        border-radius: 5px;
+                        color: black;
+                        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+                        &:hover{
+                            background-color: $base_color;
+                            color: $white;
+                            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

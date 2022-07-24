@@ -46,9 +46,9 @@
     .row{
 
         border-radius: 4px;
-        .col{
+        .column{
         .card{
-            background-color: #027c9a62;
+            background-color: #027c9a;
             outline: none;
             border: none;
             span{
@@ -65,7 +65,7 @@
                 font-weight: bold;
                 color: white;
                 font-family: $ffHeading2;
-                font-size: 1.2rem;
+                font-size: 1rem;
             }
             &:hover{
                 box-shadow: rgba(56, 95, 102, 0.37) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
@@ -75,19 +75,6 @@
         }
     }
 }
-@media (max-width: 767px) {
-    .about-details{
-        .row{
-            .card{
-                width: 13rem;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            }
-        }
-    }
-}
-
 
 .about-accordian{
     margin-top: 10%;
@@ -109,5 +96,84 @@
     }
 
 }
+@media (max-width: 767px) {
+    .allabout{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        h3{
+            font-family: $ffHeading;
+        }
+        .row{
+            outline: none;
+            border: none;
+            .mission-image{
+                img{
+                    @include imgFit;
+                }
+            }
+        }
+        .col{
+            outline: none;
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        }
+    }
+
+
+    .about-details{
+        .row{
+            .column{
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                .card{
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    a{
+                        text-decoration: none;
+                        font-weight: bold;
+                        color: white;
+                        font-family: $ffHeading2;
+                    }
+                }
+            }
+        }
+    }
+
+    .about-accordian{
+        margin-top: 10%;
+        margin-bottom: 5rem;
+
+        .accordian{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            h4{
+                font-family: $ffHeading;
+            }
+            .image{
+                height: 100%;
+                margin-top: 5%;
+                margin-bottom: 6%;
+            }
+            .accordion-button{
+                color:#027b9a;
+                font-weight: bold;
+                font-family: $ffSubtitle;
+                &:hover{
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                }
+            }
+        }
+
+    }
+}
+
+
+
+
 
 

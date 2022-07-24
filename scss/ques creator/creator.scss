@@ -16,6 +16,7 @@
         margin-right: auto;
         border: 2px solid;
         .details-creator{
+            font-family: $ffHeading2;
             h5{
                 font-size: 1rem;
                 span{
@@ -116,7 +117,13 @@
     
 }
 
-.view-btn{
+.view-bank{
+    text-align: center;
+    @include button;
+    margin-left: 1%;
+}
+.view-modeltest{
+    margin-top: 1rem;
     text-align: center;
     @include button;
     margin-left: 1%;
@@ -165,7 +172,21 @@
             width: 50%;
         }
     }
-    .view-btn{
+    .view-bank{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        text-align: center;
+        @include button;
+        margin-left: 1%;
+    }
+    .view-bank{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        text-align: center;
+        @include button;
+        margin-left: 1%;
+    }
+    .view-modeltest{
         margin-top: 5%;
         margin-bottom: 5%;
         text-align: center;
@@ -173,24 +194,7 @@
         margin-left: 1%;
     }
 }
-@media (max-width: 499px) {
-    .creator{
-        .creator-info{
-            width: 80%;
-        }
-    }
 
-    .button-section{
-        .for-button{
-            width: 60%;
-        }
-    }
-    .view-btn{
-        margin-top: 5%;
-        margin-bottom: 5%;
-        margin-left: 1%;
-    }
-}
 @media (max-width: 499px) {
     .creator{
         .creator-info{
@@ -209,9 +213,13 @@
             width: 95%;
         }
     }
-    .view-btn{
+    .view-bank{
         margin-top: 5%;
-        margin-bottom: 5%;
+        margin-left: 1%;
+    }
+    .view-modeltest{
+        margin-top: 5%;
+        margin-bottom: 2rem;
         margin-left: 1%;
     }
 }

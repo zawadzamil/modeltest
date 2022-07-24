@@ -25,8 +25,13 @@
             font-family: $ffHeading2;
             background-color: darkblue;
             color: $white;
+            border: none;
+            outline: none;
             border-radius: 5px;
-            box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+            &:hover{
+                box-shadow: rgba(8, 53, 95, 0.514) 0px 5px 15px;
+            }
         }
         h4{
             font-family: $ffHeading;
@@ -61,7 +66,12 @@
             background-color: darkblue;
             color: $white;
             border-radius: 5px;
-            box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+            border: none;
+            outline: none;
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+            &:hover{
+                box-shadow: rgba(8, 53, 95, 0.514) 0px 5px 15px;
+            }
         }
         h4{
             font-family: $ffHeading;
@@ -104,7 +114,10 @@
                 border-radius: 5px;
                 border: none;
                 outline: none;
-                box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+                box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                &:hover{
+                    box-shadow: rgba(8, 53, 95, 0.514) 0px 5px 15px;
+                }
                 option{
                     padding: 1%;
                 }
@@ -131,9 +144,7 @@
             label{
                 font-size: 15px;
             }
-            #quesField{
-                font-size: 10px;
-            }
+
         }
         .form-details{
             margin-top: 1.5rem;
@@ -144,7 +155,6 @@
                 margin-left: auto;
                 margin-right: auto;
                 width: 50%;
-                box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
                 input{
                     margin-top: 2%;
                 }
@@ -177,6 +187,10 @@
                     border-radius: 5px;
                     border: none;
                     outline: none;
+                    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                    &:hover{
+                        box-shadow: rgba(8, 53, 95, 0.514) 0px 5px 15px;
+                    }
                     option{
                         padding: 1%;
                     }
@@ -202,7 +216,8 @@
                 }
                 #field-label-1, #field-label-2{
                     width: 29%;
-                    font-size: 10px;
+                    text-align: center;
+                    font-size: 14px;
                 }
             }
             .correctAns{
@@ -214,6 +229,7 @@
                     font-weight: 500;
                 }
                 input{
+                    width: 4rem;
                     margin-top: 1rem;
                     height: 2rem;
                     padding-left: 1%;
@@ -227,12 +243,14 @@
                 margin-top: 2.5rem;
                 width: 50%;
                 display: flex;
-                text-align: center;
-                margin-left: auto;
+                justify-content: space-around;
                 margin-right: auto;
-                label{
-                    background-color: #c3ecf7;
-                    border: none;
+                margin-left: auto;
+                
+                input[type=radio] {
+                    border: 0px;
+                    width: 1.1rem;
+                    height: 1.1rem;
                 }
             }
         }
@@ -275,13 +293,27 @@
         }
     }
 }
+@media (max-width: 1199px) {
+    .main{
+        .set-details-sec{
+            .form-details{
+                .input-radio{
+                    #field-label-1, #field-label-2{
+                        width: 12rem;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 991px) {
     .main{
         .set-details-sec{
             .form-details{
                 .radioButton{
                     margin-top: 2.5rem;
-                    text-align: center;
                     width: 60%;
                     display: flex;
                     margin-left: auto;
@@ -293,7 +325,6 @@
             }
         }
     }
-    
 }
 @media (max-width: 767px) {
     .main{
@@ -337,6 +368,9 @@
             .text-area{
                 width: 90%;
                 padding-top: 3rem;
+                #quesField{
+                    font-size: 12px;
+                }
             }
             .form-details{
                 .optionform{
@@ -347,17 +381,6 @@
 
                 }
 
-                .correctAns{
-                    margin-top: 2rem;
-                    width: 80%;
-                    margin-left: auto;
-                    margin-right: auto;
-                    input{
-                        margin-top: 1rem;
-                        height: 2rem;
-                        padding-left: 2%;
-                    }
-                }
                 .input-radio{
                     padding-top: 1rem;
                     width: 80%;
@@ -378,7 +401,7 @@
                     }
                     #field-label-1, #field-label-2{
                         width: 10rem;
-                        font-size: 10px;
+                        font-size: 12px;
                     }
                 }
                 .correctAns{
@@ -399,20 +422,9 @@
                         box-shadow: rgba(70, 60, 60, 0.445) 0px 2px 8px;
                     }
                 }
-                .radioButton{
-                    margin-top: 2.5rem;
-                    width: 50%;
-                    display: block;
-                    margin-left: 2rem;
-                    label{
-                        border: none;
-                    }
-                }
             }
-
         }
     }
-
 }
 
 
@@ -468,17 +480,6 @@
 
                 }
 
-                .correctAns{
-                    margin-top: 2rem;
-                    width: 80%;
-                    margin-left: auto;
-                    margin-right: auto;
-                    input{
-                        margin-top: 1rem;
-                        height: 2rem;
-                        padding-left: 2%;
-                    }
-                }
                 .input-radio{
                     padding-top: 1rem;
                     width: 80%;
@@ -501,9 +502,8 @@
                 text-align: center;
                 .correctAns{
                     margin-top: 2rem;
-                    width: 15rem;
-                    margin-left: auto;
-                    margin-right: auto;
+                    width: 80%;
+                    text-align: left;
                     input{
                         padding-left: 2%;
                         border-radius: 5px;
@@ -513,7 +513,6 @@
                     text-align: left;
                     margin-top: 2.5rem;
                     width: 100%;
-                    display: block;
                     margin-left: auto;
                     margin-right: auto;
                     label{
@@ -522,9 +521,8 @@
                 }
             }
             .submit-btn{
-                width: 50%;
+                width: 75%;
                 margin-top: 5rem;
-                text-align: center;
                 @include button;
                 padding-bottom: 1rem;
             }

@@ -36,9 +36,16 @@
   font-family: Play;
   background-color: darkblue;
   color: #fff;
+  border: none;
+  outline: none;
   border-radius: 5px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-          box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+          box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.main .category-add .set-category .category:hover {
+  -webkit-box-shadow: rgba(8, 53, 95, 0.514) 0px 5px 15px;
+          box-shadow: rgba(8, 53, 95, 0.514) 0px 5px 15px;
 }
 
 .main .category-add .set-category h4 {
@@ -74,8 +81,15 @@
   background-color: darkblue;
   color: #fff;
   border-radius: 5px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-          box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+          box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.main .all-subject .subject:hover {
+  -webkit-box-shadow: rgba(8, 53, 95, 0.514) 0px 5px 15px;
+          box-shadow: rgba(8, 53, 95, 0.514) 0px 5px 15px;
 }
 
 .main .all-subject h4 {
@@ -122,8 +136,13 @@
   border-radius: 5px;
   border: none;
   outline: none;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-          box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+          box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.main .set-details-sec .question-type .selectOption:hover {
+  -webkit-box-shadow: rgba(8, 53, 95, 0.514) 0px 5px 15px;
+          box-shadow: rgba(8, 53, 95, 0.514) 0px 5px 15px;
 }
 
 .main .set-details-sec .question-type .selectOption option {
@@ -156,10 +175,6 @@
   font-size: 15px;
 }
 
-.main .set-details-sec .text-area #quesField {
-  font-size: 10px;
-}
-
 .main .set-details-sec .form-details {
   margin-top: 1.5rem;
   min-height: auto;
@@ -170,8 +185,6 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-          box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 .main .set-details-sec .form-details .optionform input {
@@ -209,6 +222,13 @@
   border-radius: 5px;
   border: none;
   outline: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+          box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.main .set-details-sec .form-details .optionform #ques-clue:hover {
+  -webkit-box-shadow: rgba(8, 53, 95, 0.514) 0px 5px 15px;
+          box-shadow: rgba(8, 53, 95, 0.514) 0px 5px 15px;
 }
 
 .main .set-details-sec .form-details .optionform #ques-clue option {
@@ -239,7 +259,8 @@
 
 .main .set-details-sec .form-details .input-radio #field-label-1, .main .set-details-sec .form-details .input-radio #field-label-2 {
   width: 29%;
-  font-size: 10px;
+  text-align: center;
+  font-size: 14px;
 }
 
 .main .set-details-sec .form-details .correctAns {
@@ -254,6 +275,7 @@
 }
 
 .main .set-details-sec .form-details .correctAns input {
+  width: 4rem;
   margin-top: 1rem;
   height: 2rem;
   padding-left: 1%;
@@ -270,14 +292,16 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: center;
-  margin-left: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   margin-right: auto;
+  margin-left: auto;
 }
 
-.main .set-details-sec .form-details .radioButton label {
-  background-color: #c3ecf7;
-  border: none;
+.main .set-details-sec .form-details .radioButton input[type=radio] {
+  border: 0px;
+  width: 1.1rem;
+  height: 1.1rem;
 }
 
 .main .set-details-sec .submit-btn {
@@ -404,10 +428,16 @@
   }
 }
 
+@media (max-width: 1199px) {
+  .main .set-details-sec .form-details .input-radio #field-label-1, .main .set-details-sec .form-details .input-radio #field-label-2 {
+    width: 12rem;
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 991px) {
   .main .set-details-sec .form-details .radioButton {
     margin-top: 2.5rem;
-    text-align: center;
     width: 60%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -453,22 +483,14 @@
     width: 90%;
     padding-top: 3rem;
   }
+  .main .set-details-sec .text-area #quesField {
+    font-size: 12px;
+  }
   .main .set-details-sec .form-details .optionform {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-  }
-  .main .set-details-sec .form-details .correctAns {
-    margin-top: 2rem;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .main .set-details-sec .form-details .correctAns input {
-    margin-top: 1rem;
-    height: 2rem;
-    padding-left: 2%;
   }
   .main .set-details-sec .form-details .input-radio {
     padding-top: 1rem;
@@ -492,7 +514,7 @@
   }
   .main .set-details-sec .form-details .input-radio #field-label-1, .main .set-details-sec .form-details .input-radio #field-label-2 {
     width: 10rem;
-    font-size: 10px;
+    font-size: 12px;
   }
   .main .set-details-sec .form-details .correctAns {
     margin-top: 2rem;
@@ -512,15 +534,6 @@
     outline: none;
     -webkit-box-shadow: rgba(70, 60, 60, 0.445) 0px 2px 8px;
             box-shadow: rgba(70, 60, 60, 0.445) 0px 2px 8px;
-  }
-  .main .set-details-sec .form-details .radioButton {
-    margin-top: 2.5rem;
-    width: 50%;
-    display: block;
-    margin-left: 2rem;
-  }
-  .main .set-details-sec .form-details .radioButton label {
-    border: none;
   }
 }
 
@@ -566,17 +579,6 @@
     margin-right: auto;
     width: 100%;
   }
-  .main .set-details-sec .form-details .correctAns {
-    margin-top: 2rem;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .main .set-details-sec .form-details .correctAns input {
-    margin-top: 1rem;
-    height: 2rem;
-    padding-left: 2%;
-  }
   .main .set-details-sec .form-details .input-radio {
     padding-top: 1rem;
     width: 80%;
@@ -599,9 +601,8 @@
   }
   .main .set-details-sec .form-details .correctAns {
     margin-top: 2rem;
-    width: 15rem;
-    margin-left: auto;
-    margin-right: auto;
+    width: 80%;
+    text-align: left;
   }
   .main .set-details-sec .form-details .correctAns input {
     padding-left: 2%;
@@ -611,7 +612,6 @@
     text-align: left;
     margin-top: 2.5rem;
     width: 100%;
-    display: block;
     margin-left: auto;
     margin-right: auto;
   }
@@ -619,9 +619,8 @@
     border: none;
   }
   .main .set-details-sec .submit-btn {
-    width: 50%;
+    width: 75%;
     margin-top: 5rem;
-    text-align: center;
     padding-bottom: 1rem;
   }
   .main .set-details-sec .submit-btn .butn:link,

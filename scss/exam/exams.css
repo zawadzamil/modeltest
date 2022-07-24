@@ -95,12 +95,18 @@
           box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
 
-.test_subjects .row .second .button {
+.test_subjects .row .second .test h5 {
+  color: #027b9a;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.test_subjects .row .button {
   width: 10rem;
 }
 
-.test_subjects .row .second .button .butn:link,
-.test_subjects .row .second .button .butn:visited {
+.test_subjects .row .button .butn:link,
+.test_subjects .row .button .butn:visited {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -131,7 +137,7 @@
   transition: all 0.3s ease-in-out;
 }
 
-.test_subjects .row .second .button .butn::before {
+.test_subjects .row .button .butn::before {
   background: #fff;
   content: "";
   height: 155px;
@@ -145,7 +151,7 @@
   transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.test_subjects .row .second .button .butn::after {
+.test_subjects .row .button .butn::after {
   background: #fff;
   content: "";
   height: 20rem;
@@ -159,16 +165,16 @@
   width: 8rem;
 }
 
-.test_subjects .row .second .button .butn__new::before {
+.test_subjects .row .button .butn__new::before {
   left: -50%;
 }
 
-.test_subjects .row .second .button .butn__new::after {
+.test_subjects .row .button .butn__new::after {
   left: -100%;
 }
 
-.test_subjects .row .second .button .butn:hover,
-.test_subjects .row .second .button .butn:active {
+.test_subjects .row .button .butn:hover,
+.test_subjects .row .button .butn:active {
   -webkit-transform: translateY(-3px);
           transform: translateY(-3px);
   color: #fff;
@@ -176,17 +182,17 @@
           box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
-.test_subjects .row .second .button .butn__new:hover::before {
+.test_subjects .row .button .butn__new:hover::before {
   left: 120%;
   opacity: 0.5s;
 }
 
-.test_subjects .row .second .button .butn__new:hover::after {
+.test_subjects .row .button .butn__new:hover::after {
   left: 200%;
   opacity: 0.6;
 }
 
-.test_subjects .row .second .button .butn span {
+.test_subjects .row .button .butn span {
   z-index: 20;
 }
 

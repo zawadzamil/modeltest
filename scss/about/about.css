@@ -60,17 +60,17 @@
   border-radius: 4px;
 }
 
-.about-details .row .col .card {
-  background-color: #027c9a62;
+.about-details .row .column .card {
+  background-color: #027c9a;
   outline: none;
   border: none;
 }
 
-.about-details .row .col .card span {
+.about-details .row .column .card span {
   color: #f80a0a;
 }
 
-.about-details .row .col .card-header {
+.about-details .row .column .card-header {
   -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
           box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   text-align: center;
@@ -78,27 +78,18 @@
   transition: 400ms;
 }
 
-.about-details .row .col .card-header a {
+.about-details .row .column .card-header a {
   text-decoration: none;
   font-weight: bold;
   color: white;
   font-family: Play;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
-.about-details .row .col .card-header:hover {
+.about-details .row .column .card-header:hover {
   -webkit-box-shadow: rgba(56, 95, 102, 0.37) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
           box-shadow: rgba(56, 95, 102, 0.37) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
   border-left: 5px solid tomato;
-}
-
-@media (max-width: 767px) {
-  .about-details .row .card {
-    width: 13rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 .about-accordian {
@@ -124,5 +115,74 @@
 .about-accordian .accordion-button:hover {
   -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media (max-width: 767px) {
+  .allabout {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+  }
+  .allabout h3 {
+    font-family: Bebas Neue;
+  }
+  .allabout .row {
+    outline: none;
+    border: none;
+  }
+  .allabout .row .mission-image img {
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 100%;
+  }
+  .allabout .col {
+    outline: none;
+    border: none;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  }
+  .about-details .row .column {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-details .row .column .card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-details .row .column .card a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-family: Play;
+  }
+  .about-accordian {
+    margin-top: 10%;
+    margin-bottom: 5rem;
+  }
+  .about-accordian .accordian {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-accordian .accordian h4 {
+    font-family: Bebas Neue;
+  }
+  .about-accordian .accordian .image {
+    height: 100%;
+    margin-top: 5%;
+    margin-bottom: 6%;
+  }
+  .about-accordian .accordian .accordion-button {
+    color: #027b9a;
+    font-weight: bold;
+    font-family: Bree Serif;
+  }
+  .about-accordian .accordian .accordion-button:hover {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
 }
 /*# sourceMappingURL=about.css.map */

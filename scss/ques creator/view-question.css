@@ -1,0 +1,147 @@
+/* Extra */
+@import url("https://fonts.googleapis.com/css?family=Mukta:700");
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans);
+@import url("http://fonts.googleapis.com/css?family=Kdam Thmor Pro");
+@import url("http://fonts.googleapis.com/css?family=Bebas Neue");
+@import url("http://fonts.googleapis.com/css?family=PT Sans Narrow");
+@import url("http://fonts.googleapis.com/css?family=Rajdhani");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Play");
+@import url("https://fonts.googleapis.com/css?family=Bree Serif");
+.page {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.page header h2 {
+  font-family: Bebas Neue;
+  text-align: center;
+}
+
+.page .main {
+  margin-top: 1rem;
+  background-color: #f3eceb;
+  min-height: 40rem;
+}
+
+.page .main .row {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.page .main .row .select-category #category {
+  width: 10rem;
+  height: 2rem;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: darkblue;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+          box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.page .main .row .select-category #category:hover {
+  -webkit-box-shadow: rgba(8, 53, 95, 0.514) 0px 5px 15px;
+          box-shadow: rgba(8, 53, 95, 0.514) 0px 5px 15px;
+}
+
+.page .main .row .select-subject #subject {
+  width: 12rem;
+  height: 2rem;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: darkblue;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+          box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.page .main .row .select-subject #subject:hover {
+  -webkit-box-shadow: rgba(8, 53, 95, 0.514) 0px 5px 15px;
+          box-shadow: rgba(8, 53, 95, 0.514) 0px 5px 15px;
+}
+
+.page .main .row .select-type #type {
+  width: 10rem;
+  height: 2rem;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: darkblue;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+          box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.page .main .row .select-type #type:hover {
+  -webkit-box-shadow: rgba(8, 53, 95, 0.514) 0px 5px 15px;
+          box-shadow: rgba(8, 53, 95, 0.514) 0px 5px 15px;
+}
+
+.page .main .view {
+  margin-top: 5rem;
+}
+
+.page .main .view h2 {
+  font-family: Bebas Neue;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.page .main .view .all-question {
+  padding: 1rem;
+  width: 95%;
+  min-height: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page .main .view .all-question .table-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page .main .view .all-question .view-question {
+  margin-bottom: 0.5rem;
+  width: 100%;
+  background-color: #dad4d4;
+}
+
+.page .main .view .all-question .view-question .question {
+  padding-left: 1rem;
+  width: 70%;
+}
+
+@media (max-width: 767px) {
+  .main {
+    margin-top: 1rem;
+    background-color: #f3eceb;
+    min-height: 40rem;
+  }
+  .main .row {
+    padding-top: 2rem;
+    text-align: center;
+  }
+  .main .row .select-category #category {
+    padding-left: 2%;
+  }
+  .main .row .select-subject {
+    margin-top: 1rem;
+  }
+  .main .row .select-subject #subject {
+    padding-left: 2%;
+  }
+  .main .row .select-type {
+    margin-top: 1rem;
+  }
+  .main .row .select-type #type {
+    padding-left: 2%;
+  }
+}
+/*# sourceMappingURL=view-question.css.map */

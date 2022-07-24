@@ -17,6 +17,8 @@
 </head>
 
 <body>
+    <!--Loader-->
+    <div class="loader"></div>
     <section class="main container">
         <!-- NAVBAR -->
         <section class="navSection">
@@ -130,7 +132,7 @@
 
                 <form action="" class="input-radio" id="input-radio">
                     <input id="radio-field-1" type="text" placeholder="Option-1">
-                    <input type="file" id="field-label-1" >
+                    <input type="file" id="field-label-1">
 
                     <input id="radio-field-2" type="text" placeholder="Option-2">
                     <input type="file" id="field-label-2">
@@ -138,24 +140,24 @@
 
                 <form action="" class="correctAns" id="correctAns">
                     <label for="">Correct Ans:</label>
-                    <input type="number" placeholder="Correct Ans">
+                    <input type="number" placeholder="Correct-Ans" name="correctAns" min="0" max="4" class="ans-input" id="ans-input">
                 </form>
 
                 <form action="" class="radioButton" id="showRadio-btn">
-                        <label class="form-control">
-                            <input class="text" type="radio" name="radio" />
-                            Show Text
-                        </label>
+                    <label class="form-control">
+                        <input class="text" type="radio" name="radio" />
+                        Show Text
+                    </label>
 
-                        <label class="form-control">
-                            <input class="figure" type="radio" name="radio" />
-                            Show Figure
-                        </label>
+                    <label class="form-control">
+                        <input class="figure" type="radio" name="radio" />
+                        Show Figure
+                    </label>
 
-                        <label class="form-control">
-                            <input class="both" type="radio" name="radio" />
-                            Show Both
-                        </label>
+                    <label class="form-control">
+                        <input class="both" type="radio" name="radio" />
+                        Show Both
+                    </label>
                 </form>
             </div>
             <div class="container submit-btn" id="submit">
@@ -336,6 +338,9 @@
         </div>
     </section>
 
+    <!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/set-question.js"></script>
 </body>
 

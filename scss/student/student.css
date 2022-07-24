@@ -36,6 +36,7 @@
 }
 
 .student-details .student-info .profile-student {
+  font-family: Play;
   margin-left: 5%;
   margin-top: 5%;
 }
@@ -71,7 +72,15 @@
   font-family: Bebas Neue;
 }
 
-.participatiion .p-sub .test {
+.participatiion .p-sub #perform {
+  padding-right: 0;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+}
+
+.participatiion .p-sub #perform .test {
   border-radius: 0.5rem;
   text-align: center;
   width: 100%;
@@ -82,7 +91,7 @@
           box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
 
-.participatiion .p-sub .test:hover {
+.participatiion .p-sub #perform .test:hover {
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -192,7 +201,7 @@
   font-family: Bebas Neue;
 }
 
-.attended-quiz .test {
+.attended-quiz #join .test {
   border-radius: 0.5rem;
   text-align: center;
   width: 100%;
@@ -203,7 +212,7 @@
           box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
 
-.attended-quiz .test:hover {
+.attended-quiz #join .test:hover {
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -340,7 +349,10 @@
   .participatiion .p-sub .col-sm-6 .test h5 {
     font-size: 0.9rem;
   }
-  .participatiion .p-sub .button span {
+  .participatiion .p-sub .bttn {
+    width: 88%;
+  }
+  .participatiion .p-sub .bttn .button span {
     font-size: 0.9rem;
   }
   .attended-quiz {

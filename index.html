@@ -16,6 +16,17 @@
 </head>
 
 <body>
+  <!--Loader-->
+<div id="loader"></div>
+  
+<div class="overlay">
+  <div class="overlayDoor"></div>
+  <div class="overlayContent">
+    <div class="loader">
+      <div class="inner"></div>
+    </div>
+    
+</div>
   <!-- NAVBAR -->
   <section class="navSection">
     <div class="navbar navbar-expand-lg fixed-top navbar-dark navbar-transparent">
@@ -107,7 +118,7 @@
   <!-- featured section -->
   <section class="featured">
     <div class="container">
-      <div class="row">
+      <div class="row" id="featured">
         <div class="title">
           <h1>Featured Tests</h1>
 
@@ -116,92 +127,17 @@
               <span class="circle" aria-hidden="true">
                 <span class="icon arrow"></span>
               </span>
-              <span class="button-text">More</span>
+              <span class="button-text"><a href="tests.html">More</a> </span>
             </button>
           </div>
         </div>
 
         <!--Featured Elements-->
-        <div class="col-md-4 col-lg-3 col-sm-6 fe">
-          <div class="featured_element ">
-            <img src="images/about/dammy.png" alt="" class="img-responsive">
-            <div class="caption">
-              <h4>BCS</h4>
-              <h5>Total Questions: 200</h5>
+        
 
-            </div>
-          </div>
-        </div>
+        
 
-        <div class="col-md-4 col-sm-6 col-lg-3 fe">
-          <div class="featured_element ">
-            <img src="images/about/dammy.png" alt="" class="img-responsive">
-            <div class="caption">
-              <h4>BCS</h4>
-              <h5>Total Questions: 200</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 col-lg-3 fe">
-          <div class="featured_element ">
-            <img src="images/about/dammy.png" alt="" class="img-responsive">
-            <div class="caption">
-              <h4>BCS</h4>
-              <h5>Total Questions: 200</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 col-lg-3 fe">
-          <div class="featured_element ">
-            <img src="images/about/dammy.png" alt="" class="img-responsive">
-            <div class="caption">
-              <h4>BCS</h4>
-              <h5>Total Questions: 200</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 col-lg-3 fe">
-          <div class="featured_element ">
-            <img src="images/about/dammy.png" alt="" class="img-responsive">
-            <div class="caption">
-              <h4>BCS</h4>
-              <h5>Total Questions: 200</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 col-lg-3 fe">
-          <div class="featured_element ">
-            <img src="images/about/dammy.png" alt="" class="img-responsive">
-            <div class="caption">
-              <h4>BCS</h4>
-              <h5>Total Questions: 200</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 col-lg-3 fe">
-          <div class="featured_element ">
-            <img src="images/about/dammy.png" alt="" class="img-responsive">
-            <div class="caption">
-              <h4>BCS</h4>
-              <h5>Total Questions: 200</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 col-lg-3 fe">
-          <div class="featured_element ">
-            <img src="images/about/dammy.png" alt="" class="img-responsive">
-            <div class="caption">
-              <h4>BCS</h4>
-              <h5>Total Questions: 200</h5>
-            </div>
-          </div>
-        </div>
+       
         <!--Featured Elements End-->
       </div>
     </div>
@@ -242,17 +178,9 @@
         <div class="col-md-4 hot">
           <div class="content">
             <h2>Hot Exam Topics</h2>
-            <ul>
-              <li>BCS Test 42 </li>
-              <li>HSC Model Test 2022 </li>
-              <li>Model Test 12 </li>
-              <li>Model Test 13 </li>
-              <li>Model Test 14 </li>
-              <li>Model Test 15 </li>
-              <li>Model Test 16 </li>
-              <li>Model Test 17 </li>
-              <li>Model Test 18 </li>
-              <li>Model Test 19 </li>
+            <ul id="hot">
+             
+              
             </ul>
           </div>
         </div>
@@ -275,7 +203,7 @@
             <h5>Model-test Online is a great site for online practice
               tests as we have a vast database of thousands of
               questions for Public Exam like the HSC Exam.</h5>
-            <a href="#" class='butn butn__new'><span>View More</span></a>
+            <a href="about.html" class='butn butn__new'><span>View More</span></a>
           </div>
         </div>
       </div>
@@ -450,6 +378,9 @@
       </footer>
     </div>
   </section>
+  
+
+ 
 
 
   <!-- Jquery needed -->

@@ -25,6 +25,7 @@
         margin-right: auto;
         border: 2px solid;
         .profile-student{
+            font-family: $ffHeading2;
             h5{
                 font-size: 1rem;
                 span{
@@ -56,18 +57,26 @@
             margin-bottom: 2rem;
             font-family: $ffHeading;
         }
-        .test{
-           border-radius: 0.5rem;
-           text-align: center;
-           width: 100%;
-           padding-top: 5%;
-           padding-bottom: 5%;
-           margin-bottom: 2rem;
-           box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
-           &:hover{
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        #perform{
+            padding-right: 0;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 0;
+            .test{
+                border-radius: 0.5rem;
+                text-align: center;
+                width: 100%;
+                padding-top: 5%;
+                padding-bottom: 5%;
+                margin-bottom: 2rem;
+                box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+                &:hover{
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                }
             }
         }
+
         .button{
             @include button;
             margin-left: auto;
@@ -83,18 +92,21 @@
         margin-bottom: 2rem;
         font-family: $ffHeading;
     }
-    .test{
-        border-radius: 0.5rem;
-        text-align: center;
-        width: 100%;
-        padding-top: 5%;
-        padding-bottom: 5%;
-        margin-bottom: 2rem;
-        box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
-        &:hover{
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    #join{
+        .test{
+            border-radius: 0.5rem;
+            text-align: center;
+            width: 100%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            margin-bottom: 2rem;
+            box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+            &:hover{
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            }
         }
     }
+
 }
 
 // statistics
@@ -241,11 +253,15 @@
                 }
              }
         }
-        .button{
-            span{
-                font-size: 0.9rem;
+        .bttn{
+            width: 88%;
+            .button{
+                span{
+                    font-size: 0.9rem;
+                }
             }
         }
+
     }
 }
 // attended Quiz

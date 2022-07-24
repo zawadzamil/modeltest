@@ -14,10 +14,12 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <title>Test Details</title>
+    <title>Quiz</title>
 </head>
 
 <body>
+    <!--Loader-->
+    <div class="loader"></div>
 
     <!-- NAVBAR -->
     <section class="navSection">
@@ -62,139 +64,71 @@
     </section>
 
     <!-- text header -->
-    <section class="test_header">
+    <!-- <section class="test_header">
         <div class="navigation">
             <a href="index.html">Home > </a>
             <a href="tests.html">Tests ></a>
             <a href="tests.html">Test Details ></a>
             <a href="tests.html">Quiz</a>
         </div>
-    </section>
+    </section> -->
 
     <!-- quiz section -->
     <section class="quiz">
         <div class="container">
             <div class="row">
                 <div class="quiz_details">
-                    <h2>Quiz on Biology in English - I</h2>
+                    <h2 id="title">Quiz on Biology in English - I</h2>
 
                     <div class="more_details">
-                        <h5>Your Name <span id="more-details-text">: Zawad Zamil</span></h5>
+                        <h5>Your Name <span id="more-details-text">Zawad Zamil</span></h5>
                         <h5>Total Mark <span id="more-details-mark">: 100</span></h5>
                         <h5>Total Questions <span id="more-details-questions">: 100</span></h5>
-                        <h5>Total Time <span id="more-details-time">: 60 min</span></h5>
+                        <h5>Negative Mark <span id="negative">: 0</span></h5>
+
+                        <h5>Total Time (in Munite) <span id="more-details-time">: 60 min</span></h5>
                     </div>
                     <div class="time">
                         <h2>Remaining Time</h2>
-                        <h1>00:47:31 </h1>
+                        <h1 class="countdown"></h1>
                     </div>
 
                 </div>
                 <div class="col-md-8">
                     <div class="question">
-                        <h5>Question :5 <span>Correct Mark :1 Negitive : 0</span></h5>
+                        <h5>Question : <b id="count"></b> <span>Correct Mark : <b id="correctMark">1 </b>  Negitive : <b id="negative">0</b></span></h5>
                         <hr>
-                        <h4>Question : Which of the following is shift in chloride shift?</h4>
-                        <ul>
-                            <li>
-                                <label for="op1"> <input type="checkbox" id="op1"> O2 and CO2 </label>
+                        <h4 id="question"></h4>
+                      <div class="figure">
+                          
+                      </div>
+                        <ul id="option_list">
 
-                            </li>
-                            <li>
-                                <label for="op1"> <input type="checkbox" id="op1"> O2 and CO2 </label>
+                           
+                            
 
-                            </li>
-                            <li>
-                                <label for="op1"> <input type="checkbox" id="op1"> O2 and CO2 </label>
 
-                            </li>
-                            <li>
-                                <label for="op1"> <input type="checkbox" id="op1"> O2 and CO2 </label>
-
-                            </li>
                         </ul>
                         <div class="button">
-                            <button type="button" class="btn btn-outline-light">Prev</button>
-                            <button type="button" class="btn btn-outline-light">Next</button>
+                            <button type="button" class="btn btn-outline-light" id="prev">Prev</button>
+                            <button type="button" class="btn btn-outline-light" id="next">Next</button>
+                            <button type="button" class="btn btn-outline-danger" id="submit">Submit</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="pagination">
                         <div class="container">
-                            <div class="row">
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">1</button>
-                                </div>
-                                <div class="col-md-2 pege-btn ">
-                                    <button class="btn-level">2</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">3</button>
-                                </div>
-                                <div class="col-md-2 pege-btn ">
-                                    <button class="btn-level">4</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">5</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">6</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">7</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">8</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">9</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">10</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">11</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">12</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">13</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">14</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">15</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">16</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">17</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">18</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">19</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">20</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">21</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">22</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">23</button>
-                                </div>
-                                <div class="col-md-2 pege-btn">
-                                    <button class="btn-level">24</button>
-                                </div>
+                            <div class="row" id="pagination">
+                            <div class="paginator row">
+                                
+                               
+                            </div>
+                           
+
+
+
+
                                 <div class="symbol">
                                     <label for="nv" id="notvisited">■
                                         <span id="text">Not Visited</span></label>
@@ -389,6 +323,7 @@
     <!-- Jquery needed -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/quiz.js"></script>
 
 </body>
 

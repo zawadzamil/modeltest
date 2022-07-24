@@ -1,0 +1,105 @@
+/* Extra */
+@import url("https://fonts.googleapis.com/css?family=Mukta:700");
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans);
+@import url("http://fonts.googleapis.com/css?family=Kdam Thmor Pro");
+@import url("http://fonts.googleapis.com/css?family=Bebas Neue");
+@import url("http://fonts.googleapis.com/css?family=PT Sans Narrow");
+@import url("http://fonts.googleapis.com/css?family=Rajdhani");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Play");
+@import url("https://fonts.googleapis.com/css?family=Bree Serif");
+.page {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.page header {
+  font-family: Bebas Neue;
+  text-align: center;
+}
+
+.page .main {
+  min-height: 40rem;
+}
+
+.page .main .row {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+}
+
+.page .main .row .view-m-test {
+  width: 15.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page .main .row .view-m-test .view-test {
+  position: relative;
+  padding-top: 1rem;
+  text-align: center;
+  width: 13rem;
+  height: 11rem;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.page .main .row .view-m-test .view-test h5 {
+  margin-top: 1rem;
+  opacity: 0.9;
+  font-size: 16px;
+}
+
+.page .main .row .view-m-test .view-test p {
+  width: 100%;
+  background-color: #ddd8d8;
+  font-weight: 400;
+  position: absolute;
+  top: 87%;
+}
+
+.page .main .row .view-m-test .btn-view {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.page .main .row .view-m-test .btn-view .test-edit {
+  text-decoration: none;
+  margin: 2%;
+  border: 2px solid black;
+  padding: 2px 1rem 2px 1rem;
+  border-radius: 5px;
+  color: black;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.page .main .row .view-m-test .btn-view .test-edit:hover {
+  background-color: #004658;
+  color: #fff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.page .main .row .view-m-test .btn-view .test-delete {
+  text-decoration: none;
+  margin: 2%;
+  border: 2px solid black;
+  padding: 2px 1rem 2px 1rem;
+  border-radius: 5px;
+  color: black;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.page .main .row .view-m-test .btn-view .test-delete:hover {
+  background-color: #004658;
+  color: #fff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/*# sourceMappingURL=view-modeltest.css.map */

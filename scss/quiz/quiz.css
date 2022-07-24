@@ -27,11 +27,16 @@
 }
 
 .quiz {
-  margin-top: 1rem;
+  margin-top: 4.5rem;
 }
 
 .quiz .row {
   margin-bottom: 4rem;
+}
+
+.quiz .row .quiz_details h3 {
+  text-align: center;
+  font-family: Bebas Neue;
 }
 
 .quiz .row .quiz_details h2 {
@@ -54,29 +59,30 @@
   padding: 1.2rem 1rem 1rem 2rem;
   margin-bottom: 1rem;
   border-radius: 0.75rem;
-  height: 7rem;
+  height: 8rem;
+  overflow: hidden;
 }
 
 .quiz .row .quiz_details .more_details h5 {
   font-family: Rajdhani;
   font-weight: 1000;
-  font-size: 0.75rem;
+  font-size: 100%;
 }
 
 .quiz .row .quiz_details .more_details #more-details-text {
-  margin-left: 5rem;
+  margin-left: 4px;
 }
 
 .quiz .row .quiz_details .more_details #more-details-mark {
-  margin-left: 5.15rem;
+  margin-left: 4px;
 }
 
 .quiz .row .quiz_details .more_details #more-details-questions {
-  margin-left: 3.62rem;
+  margin-left: 4px;
 }
 
 .quiz .row .quiz_details .more_details #more-details-time {
-  margin-left: 5.17rem;
+  margin-left: 4px;
 }
 
 .quiz .row .question {
@@ -92,21 +98,31 @@
 }
 
 .quiz .row .question ul {
-  list-style: auto;
+  list-style: none;
+  color: white;
+}
+
+.quiz .row .question ul label {
+  padding: 0rem 1rem;
+  font-size: 1.3rem;
 }
 
 .quiz .row .question .button {
-  margin-left: 41%;
+  text-align: center;
 }
 
 .quiz .row .question .button button {
   padding: 0rem 1rem;
 }
 
+.quiz .row .question .button #submit-form {
+  margin-top: 3%;
+}
+
 .quiz .row .pagination {
   -webkit-box-shadow: rgba(10, 80, 141, 0.623) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
           box-shadow: rgba(10, 80, 141, 0.623) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
-  height: 18.90rem;
+  min-height: 18.9rem;
   width: 100%;
   background: black;
   background: linear-gradient(38deg, black 0%, #1da291 100%);
@@ -118,12 +134,18 @@
   margin-left: 2%;
 }
 
+.quiz .row .pagination .row .paginator {
+  margin: 0% !important;
+  padding: 0% !important;
+}
+
 .quiz .row .pagination .row .pege-btn {
   width: 2rem;
-  margin: 2px;
   padding-left: 0%;
   padding-right: 0%;
-  margin-top: 0.5rem;
+  margin-top: 0.5rem 2px 2px 2px;
+  text-align: center;
+  margin: 5px;
 }
 
 .quiz .row .pagination .row .pege-btn .btn-level {
@@ -132,7 +154,14 @@
   -webkit-transition-duration: 0.4s;
           transition-duration: 0.4s;
   border: 0px;
-  cursor: default;
+  cursor: pointer;
+  background-color: #0814b6;
+  color: white;
+}
+
+.quiz .row .pagination .row .pege-btn .btn-level:hover {
+  background-color: antiquewhite;
+  color: black;
 }
 
 .quiz .row .pagination .symbol {
@@ -156,13 +185,11 @@
   color: green;
 }
 
+.quiz .row .pagination .symbol #review {
+  color: gray;
+}
+
 @media (max-width: 1199px) {
-  .quiz .row .quiz_details .more_details #more-details-questions {
-    margin-left: 2.77rem;
-  }
-  .quiz .row .quiz_details .more_details #more-details-time {
-    margin-left: 5.25rem;
-  }
   .quiz .row .pagination {
     margin-left: 1rem;
     height: 20.28rem;
@@ -170,8 +197,7 @@
     background-color: aquamarine;
   }
   .quiz .row .pagination .row {
-    margin-left: 0.5rem;
-    margin-top: 1rem;
+    margin-left: 1rem 0rem 0rem 0.5rem;
   }
   .quiz .row .pagination .symbol {
     margin-top: 2rem;
@@ -181,21 +207,10 @@
 
 @media (max-width: 991px) {
   .quiz .row .quiz_details .more_details {
-    padding: 1.5rem 1rem 1rem 2rem;
+    width: 50%;
+    padding: 1rem 1rem 1rem 2rem;
     margin-bottom: 2rem;
     border-radius: 0.75rem;
-  }
-  .quiz .row .quiz_details .more_details #more-details-text {
-    margin-left: 5rem;
-  }
-  .quiz .row .quiz_details .more_details #more-details-mark {
-    margin-left: 5.26rem;
-  }
-  .quiz .row .quiz_details .more_details #more-details-questions {
-    margin-left: 2.8rem;
-  }
-  .quiz .row .quiz_details .more_details #more-details-time {
-    margin-left: 5.3rem;
   }
   .quiz .row .question {
     background-color: #0e021a;
@@ -208,18 +223,14 @@
   .quiz .row .question ul {
     list-style: auto;
   }
-  .quiz .row .question .button {
-    margin-left: 32%;
-  }
   .quiz .row .pagination {
     margin-left: 1rem;
-    height: 22.60rem;
+    height: 22.6rem;
     width: 100%;
     background-color: aquamarine;
   }
   .quiz .row .pagination .row {
-    margin-left: 0.5rem;
-    margin-top: 1rem;
+    margin: 1rem 0rem 0rem 0.5rem;
   }
   .quiz .row .pagination .symbol {
     margin-top: 2rem;
@@ -230,30 +241,49 @@
 @media (max-width: 767px) {
   .quiz .row .quiz_details .more_details {
     margin: auto;
-    padding: 1.5rem 1rem 1rem 2rem;
+    padding: 1rem 1rem 1rem 2rem;
     margin-bottom: 1rem;
     border-radius: 0.75rem;
-    width: 70%;
-  }
-  .quiz .row .quiz_details .more_details #more-details-text {
-    margin-left: 0rem;
-  }
-  .quiz .row .quiz_details .more_details #more-details-mark {
-    margin-left: 0rem;
-  }
-  .quiz .row .quiz_details .more_details #more-details-questions {
-    margin-left: 0rem;
-  }
-  .quiz .row .quiz_details .more_details #more-details-time {
-    margin-left: 0rem;
+    width: 75%;
   }
   .quiz .row .question .button {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 0 auto;
   }
   .quiz .row .pagination {
     margin-top: 3rem;
     margin-left: 0rem;
+    background-color: aquamarine;
+  }
+  .quiz .row .pagination .row {
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+  }
+  .quiz .row .pagination .symbol {
+    margin-top: 3rem;
+    padding: 0%;
+  }
+}
+
+@media (max-width: 575px) {
+  .quiz .row .quiz_details .more_details {
+    margin: auto;
+    padding: 1rem 1rem 1rem 2rem;
+    margin-bottom: 1rem;
+    border-radius: 0.75rem;
+    width: 75%;
+  }
+  .quiz .row .question {
+    width: 90%;
+    margin: 0rem auto 0 auto;
+  }
+  .quiz .row .question .button {
+    margin: 0.5rem auto 0 auto;
+  }
+  .quiz .row .pagination {
+    width: 90%;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
     background-color: aquamarine;
   }
   .quiz .row .pagination .row {
@@ -268,18 +298,14 @@
 
 @media (max-width: 360px) {
   .quiz .row .quiz_details .more_details {
-    margin: auto;
-    padding: 1.5rem 1rem 1rem 2rem;
+    font-size: 90%;
+    width: 90%;
+    padding: 1rem 1rem 1rem 2rem;
     margin-bottom: 1rem;
     border-radius: 0.75rem;
-    width: 100%;
-  }
-  .quiz .row .question .button {
-    margin-left: 1.9rem;
   }
   .quiz .row .pagination {
     margin-top: 3rem;
-    margin-left: 0rem;
     background-color: aquamarine;
   }
   .quiz .row .pagination .row {

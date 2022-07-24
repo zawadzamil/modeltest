@@ -1,0 +1,128 @@
+@import "../mixin";
+@import "../var";
+
+
+.page{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    header{
+        h2{
+            font-family: $ffHeading;
+            text-align: center;
+        }
+    }
+    .main{
+        margin-top: 1rem;
+        background-color: rgb(243, 236, 235);
+        min-height: 40rem;
+        .row{
+            padding-top: 2rem;
+            text-align: center;
+            .select-category{
+                #category{
+                    width: 10rem;
+                    height: 2rem;
+                    color: $white;
+                    border: none;
+                    outline: none;
+                    border-radius: 5px;
+                    background-color: darkblue;
+                    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                    &:hover{
+                        box-shadow: rgba(8, 53, 95, 0.514) 0px 5px 15px;
+                    }
+                }
+            }
+            .select-subject{
+                #subject{
+                    width: 12rem;
+                    height: 2rem;
+                    color: $white;
+                    border: none;
+                    outline: none;
+                    border-radius: 5px;
+                    background-color: darkblue;
+                    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                    &:hover{
+                        box-shadow: rgba(8, 53, 95, 0.514) 0px 5px 15px;
+                    }
+                }
+            }
+            .select-type{
+                #type{
+                    width: 10rem;
+                    height: 2rem;
+                    color: $white;
+                    border: none;
+                    outline: none;
+                    border-radius: 5px;
+                    background-color: darkblue;
+                    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                    &:hover{
+                        box-shadow: rgba(8, 53, 95, 0.514) 0px 5px 15px;
+                    }
+                }
+            }
+        }
+
+        .view{
+            margin-top: 5rem;
+            h2{
+                font-family: $ffHeading;
+                opacity: 0.9;
+                text-align: center;
+            }
+
+            .all-question{
+                padding: 1rem;
+                width: 95%;
+                min-height: 10rem;
+                margin-left: auto;
+                margin-right: auto;
+
+                .table-header{
+                    display: flex;
+                    justify-content: space-between;
+                }
+                .view-question{
+                    .question{
+                        padding-left: 1rem;
+                        width: 70%;
+                    }
+                    margin-bottom: 0.5rem;
+                    width: 100%;
+                    background-color: rgb(218, 212, 212);
+                }
+
+            }
+        }
+    }
+}
+@media (max-width: 767px) {
+    .main{
+        margin-top: 1rem;
+        background-color: rgb(243, 236, 235);
+        min-height: 40rem;
+        .row{
+            padding-top: 2rem;
+            text-align: center;
+            .select-category{
+                #category{
+                    padding-left: 2%;
+                }
+            }
+            .select-subject{
+                margin-top: 1rem;
+                #subject{
+                    padding-left: 2%;
+                }
+            }
+            .select-type{
+                margin-top: 1rem;
+                #type{
+                    padding-left: 2%;
+                }
+            }
+        }
+    }
+}
